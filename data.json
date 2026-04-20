@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-20T18:40:02.017868",
+  "generated_at": "2026-04-20T18:50:01.429016",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-04-20T18:40:02.017891"
+    "last_health_check": "2026-04-20T18:50:01.429037"
   },
   "bots": [
     {
       "name": "BTC Swing Bot (2.5/1.0)",
       "status": "running",
-      "last_update": "2026-04-20 18:39:09,795",
+      "last_update": "2026-04-20 18:49:08,895",
       "config": {
         "tp_pct": 2.5,
         "sl_pct": 1.0,
@@ -25,7 +25,7 @@
       "current_signal": {
         "signal": "NEUTRAL",
         "confidence": 39.8,
-        "time": "2026-04-20 18:39:09,795"
+        "time": "2026-04-20 18:49:08,895"
       },
       "open_position": null,
       "performance": {
@@ -113,7 +113,7 @@
     {
       "name": "BTC High Frequency (1.0/0.5)",
       "status": "running",
-      "last_update": "2026-04-20 18:39:14,874",
+      "last_update": "2026-04-20 18:49:14,228",
       "config": {
         "tp_pct": 1.0,
         "sl_pct": 0.5,
@@ -125,8 +125,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 53.1,
-        "time": "2026-04-20 18:39:14,874"
+        "confidence": 51.0,
+        "time": "2026-04-20 18:49:14,228"
       },
       "open_position": {
         "direction": "SHORT",
@@ -208,7 +208,7 @@
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-20 18:39:37,323 - INFO - [HEARTBEAT] Price: $75,567.57",
+      "last_update": "2026-04-20 18:49:37,491 - INFO - [HEARTBEAT] Price: $75,581.52",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -224,8 +224,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 50.5,
-        "time": "2026-04-20 18:38:14,447"
+        "confidence": 51.6,
+        "time": "2026-04-20 18:48:19,582"
       },
       "open_position": null,
       "performance": {
@@ -271,7 +271,7 @@
     {
       "name": "BTC Precision Strategy (0.60 threshold)",
       "status": "running",
-      "last_update": "2026-04-20 18:39:37,599 - INFO - [HEARTBEAT] Price: $75,567.57",
+      "last_update": "2026-04-20 18:49:37,757 - INFO - [HEARTBEAT] Price: $75,581.52",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -287,8 +287,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 52.1,
-        "time": "2026-04-20 18:39:15,050"
+        "confidence": 50.5,
+        "time": "2026-04-20 18:49:19,848"
       },
       "open_position": null,
       "performance": {
