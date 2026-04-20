@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Bots Monitor V3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); min-height: 100vh; }
+        .card { background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+        .pulse { animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    </style>
+</head>
+<body class="text-white p-4 md:p-8">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">
+                <i class="fas fa-chart-line mr-2"></i>Trading Bots Monitor V3
+            </h1>
+            <p class="text-gray-400">Live Status Dashboard</p>
+            <div id="lastUpdate" class="text-sm text-gray-500 mt-2"></div>
+        </div>
+
+        <div id="botsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6"></div>
+
+        <div class="card rounded-xl p-6 mb-6">
+            <h2 class="text-2xl font-bold mb-4">
+                <i class="fas fa-flask mr-2"></i>A/B Test: 0.50 vs 0.60 Threshold
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
+                <div class="bg-gray-800/30 rounded-lg p-4">
+                    <div class="text-gray-400 text-sm mb-2">Total Trades</div>
+                    <div id="compTrades" class="text-2xl font-bold">--</div>
+                    <div id="compTradesWinner" class="text-xs text-gray-500 mt-1">--</div>
+                </div>
+                <div class="bg-gray-800/30 rounded-lg p-4">
+                    <div class="text-gray-400 text-sm mb-2">Win Rate</div>
+                    <div id="compWR" class="text-2xl font-bold">--</div>
+                    <div id="compWRWinner" class="text-xs text-gray-500 mt-1">--</div>
+                </div>
+                <div class="bg-gray-800/30 rounded-lg p-4">
+                    <div class="text-gray-400 text-sm mb-2">Total P&L</div>
+                    <div id="compPnL" class="text-2xl font-bold">--</div>
+                    <div id="compPnLWinner" class="text-xs text-gray-500 mt-1">--</div>
+                </div>
+                <div class="bg-gray-800/30 rounded-lg p-4">
+                    <div class="text-gray-400 text-sm mb-2">EV/Trade</div>
+                    <div id="compAvgPnL" class="text-2xl font-bold">--</div>
+                    <div id="compAvgPnLWinner" class="text-xs text-gray-500 mt-1">--</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center text-gray-500 text-sm">
+            <p>Auto-refreshes every 30s | V3</p>
+        </div>
+    </div>
+
+    <script>
+        function safe(val, def = 0) {
+            if (val == null || val === '' || isNaN(val)) return def;
+            return Number(val);
+        }
+
+        async function load() {
+            try {
+                const res = await fetch('data.json?' + Date.now());
+                const d = await res.json();
+
+                document.getElementById('lastUpdate').innerHTML =
+                    '<i class="fas fa-clock mr-1"></i>' + (d.generated_at || 'Never');
+
+                const bots = d.bots || [];
+                document.getElementById('botsContainer').innerHTML = bots.map(bot => {
+                    const p = bot.performance || {};
+                    const trades = safe(p.total_trades);
+                    const wr = safe(p.win_rate);
+                    const pnl = safe(p.total_pnl);
+                    const running = bot.status === 'running';
+                    const color = running ? 'green' : 'red';
+                    const sig = (bot.current_signal || {}).signal || 'UNKNOWN';
+                    const conf = safe((bot.current_signal || {}).confidence);
+
+                    let icon = '📊';
+                    if (bot.name.includes('Swing')) icon = '🎯';
+                    if (bot.name.includes('High Frequency')) icon = '⚡';
+                    if (bot.name.includes('0.50')) icon = '📈';
+                    if (bot.name.includes('0.60')) icon = '🎯';
+
+                    return `<div class="card rounded-xl p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center">
+                                <span class="text-2xl mr-2">${icon}</span>
+                                <span class="text-sm font-bold">${bot.name}</span>
+                            </div>
+                            <span class="w-2 h-2 rounded-full bg-${color}-500 ${running?'pulse':''}"></span>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <div class="bg-gray-800/50 rounded p-2">
+                                <div class="text-gray-400">Signal</div>
+                                <div class="font-bold">${sig} ${conf.toFixed(1)}%</div>
+                            </div>
+                            <div class="grid grid-cols-2 gap-2">
+                                <div class="bg-gray-800/50 rounded p-2">
+                                    <div class="text-gray-400">Trades</div>
+                                    <div class="font-bold">${trades}</div>
+                                </div>
+                                <div class="bg-gray-800/50 rounded p-2">
+                                    <div class="text-gray-400">Win Rate</div>
+                                    <div class="font-bold">${wr.toFixed(1)}%</div>
+                                </div>
+                            </div>
+                            <div class="bg-gray-800/50 rounded p-2">
+                                <div class="text-gray-400">Total P&L</div>
+                                <div class="text-lg font-bold ${pnl>=0?'text-green-400':'text-red-400'}">$${pnl.toLocaleString()}</div>
+                            </div>
+                        </div>
+                    </div>`;
+                }).join('');
+
+                const b50 = bots.find(b => b.name.includes('0.50'));
+                const b60 = bots.find(b => b.name.includes('0.60'));
+                if (b50 && b60) {
+                    const p50 = b50.performance || {};
+                    const p60 = b60.performance || {};
+                    const t50 = safe(p50.total_trades);
+                    const t60 = safe(p60.total_trades);
+                    const w50 = safe(p50.win_rate);
+                    const w60 = safe(p60.win_rate);
+                    const pnl50 = safe(p50.total_pnl);
+                    const pnl60 = safe(p60.total_pnl);
+                    const avg50 = safe(p50.avg_pnl);
+                    const avg60 = safe(p60.avg_pnl);
+
+                    document.getElementById('compTrades').textContent = t50 + ' vs ' + t60;
+                    document.getElementById('compTradesWinner').textContent = t50>t60?'BOT_050':t60>t50?'BOT_060':'Tied';
+                    document.getElementById('compWR').textContent = w50.toFixed(1) + '% vs ' + w60.toFixed(1) + '%';
+                    document.getElementById('compWRWinner').textContent = w50>w60?'BOT_050':w60>w50?'BOT_060':'Tied';
+                    document.getElementById('compPnL').textContent = '$' + pnl50.toLocaleString() + ' vs $' + pnl60.toLocaleString();
+                    document.getElementById('compPnLWinner').innerHTML = pnl50>pnl60?'<span class="text-green-400">BOT_050</span>':pnl60>pnl50?'<span class="text-purple-400">BOT_060</span>':'Tied';
+                    document.getElementById('compAvgPnL').textContent = '$' + avg50.toFixed(2) + ' vs $' + avg60.toFixed(2);
+                    document.getElementById('compAvgPnLWinner').textContent = avg50>avg60?'BOT_050':avg60>avg50?'BOT_060':'Tied';
+                }
+            } catch (e) {
+                document.getElementById('lastUpdate').innerHTML =
+                    '<span class="text-red-400"><i class="fas fa-exclamation-triangle mr-1"></i>' + e.message + '</span>';
+            }
+        }
+
+        load();
+        setInterval(load, 30000);
+    </script>
+</body>
+</html>
