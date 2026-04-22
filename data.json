@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-22T18:50:01.107662",
+  "generated_at": "2026-04-22T19:00:01.840528",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-04-22T18:50:01.107687"
+    "last_health_check": "2026-04-22T19:00:01.840546"
   },
   "bots": [
     {
       "name": "BTC Swing Bot (2.5/1.0)",
       "status": "running",
-      "last_update": "2026-04-22 18:49:09,214",
+      "last_update": "2026-04-22 18:59:08,851",
       "config": {
         "tp_pct": 2.5,
         "sl_pct": 1.0,
@@ -24,8 +24,8 @@
       },
       "current_signal": {
         "signal": "LONG",
-        "confidence": 45.2,
-        "time": "2026-04-22 18:49:09,214"
+        "confidence": 45.0,
+        "time": "2026-04-22 18:59:08,851"
       },
       "open_position": null,
       "performance": {
@@ -50,7 +50,7 @@
     {
       "name": "BTC High Frequency (1.0/0.5)",
       "status": "running",
-      "last_update": "2026-04-22 18:49:15,384",
+      "last_update": "2026-04-22 18:59:14,231",
       "config": {
         "tp_pct": 1.0,
         "sl_pct": 0.5,
@@ -62,8 +62,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 78.6,
-        "time": "2026-04-22 18:49:15,384"
+        "confidence": 77.4,
+        "time": "2026-04-22 18:59:14,231"
       },
       "open_position": {
         "direction": "LONG",
@@ -145,7 +145,7 @@
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-22 18:49:39,581 - INFO - [HEARTBEAT] Price: $78,835.99",
+      "last_update": "2026-04-22 18:59:39,718 - INFO - [HEARTBEAT] Price: $78,746.23",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -160,18 +160,26 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "LONG",
-        "confidence": 53.4,
-        "time": "2026-04-22 18:49:04,398"
+        "signal": "UNKNOWN",
+        "confidence": 0,
+        "time": null
       },
-      "open_position": null,
+      "open_position": {
+        "direction": "LONG",
+        "size": 3,
+        "entry_price": 78745.02,
+        "tp_price": 79138.7451,
+        "sl_price": 78626.90247000002,
+        "entry_time": "2026-04-22 18:57:15",
+        "adopted": false
+      },
       "performance": {
-        "total_trades": 5,
+        "total_trades": 6,
         "wins": 1,
-        "losses": 4,
-        "win_rate": 20.0,
-        "total_pnl": -26.84,
-        "avg_pnl": -5.37
+        "losses": 5,
+        "win_rate": 16.7,
+        "total_pnl": -69.57,
+        "avg_pnl": -11.59
       },
       "recent_trades": [
         {
@@ -208,6 +216,13 @@
           "pnl": -36.66,
           "pnl_pct": -0.15,
           "hold_minutes": 10.0
+        },
+        {
+          "time": "2026-04-22T18:55:07.137440",
+          "direction": "LONG",
+          "pnl": -42.73,
+          "pnl_pct": -0.18,
+          "hold_minutes": 5.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -215,7 +230,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-22 18:49:39,591 - INFO - [HEARTBEAT] Price: $78,835.99",
+      "last_update": "2026-04-22 18:59:39,723 - INFO - [HEARTBEAT] Price: $78,746.23",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -230,11 +245,19 @@
         "strategy": "Balanced Quality - optimize quality \u00d7 volume"
       },
       "current_signal": {
-        "signal": "NEUTRAL",
-        "confidence": 54.5,
-        "time": "2026-04-22 18:49:19,584"
+        "signal": "UNKNOWN",
+        "confidence": 0,
+        "time": null
       },
-      "open_position": null,
+      "open_position": {
+        "direction": "LONG",
+        "size": 3,
+        "entry_price": 78744.14,
+        "tp_price": 79137.86069999999,
+        "sl_price": 78626.02379,
+        "entry_time": "2026-04-22 18:56:25",
+        "adopted": false
+      },
       "performance": {
         "total_trades": 1,
         "wins": 1,
