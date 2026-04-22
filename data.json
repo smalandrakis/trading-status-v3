@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-22T16:50:01.767809",
+  "generated_at": "2026-04-22T17:00:02.552412",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-04-22T16:50:01.767820"
+    "last_health_check": "2026-04-22T17:00:02.552423"
   },
   "bots": [
     {
       "name": "BTC Swing Bot (2.5/1.0)",
       "status": "running",
-      "last_update": "2026-04-22 16:49:50,634",
+      "last_update": "2026-04-22 16:59:08,388",
       "config": {
         "tp_pct": 2.5,
         "sl_pct": 1.0,
@@ -24,8 +24,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 40.4,
-        "time": "2026-04-22 16:49:50,634"
+        "confidence": 41.4,
+        "time": "2026-04-22 16:59:08,388"
       },
       "open_position": null,
       "performance": {
@@ -45,12 +45,12 @@
           "hold_minutes": 0
         }
       ],
-      "health_status": "WARNING"
+      "health_status": "HEALTHY"
     },
     {
       "name": "BTC High Frequency (1.0/0.5)",
       "status": "running",
-      "last_update": "2026-04-22 16:49:51,573",
+      "last_update": "2026-04-22 16:59:13,122",
       "config": {
         "tp_pct": 1.0,
         "sl_pct": 0.5,
@@ -62,8 +62,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 53.5,
-        "time": "2026-04-22 16:49:51,573"
+        "confidence": 59.5,
+        "time": "2026-04-22 16:59:13,122"
       },
       "open_position": {
         "direction": "LONG",
@@ -140,12 +140,12 @@
           "hold_minutes": 50.0
         }
       ],
-      "health_status": "WARNING"
+      "health_status": "HEALTHY"
     },
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-22 16:49:46,811 - INFO - [HEARTBEAT] Price: $78,852.66",
+      "last_update": "2026-04-22 17:00:01,327 - INFO -   LONG",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -160,105 +160,34 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "UNKNOWN",
-        "confidence": 0,
-        "time": null
+        "signal": "LONG",
+        "confidence": 50.4,
+        "time": "2026-04-22 16:59:51,217"
       },
       "open_position": {
-        "direction": "SHORT",
+        "direction": "LONG",
         "size": 3,
-        "entry_price": 78906.94,
-        "tp_price": 78512.4053,
-        "sl_price": 79025.30041000001,
-        "entry_time": "2026-04-22 16:30:35",
+        "entry_price": 79054.0,
+        "tp_price": 79449.26999999999,
+        "sl_price": 78935.41900000001,
+        "entry_time": "2026-04-22 16:59:51",
         "adopted": false
       },
       "performance": {
-        "total_trades": 38,
-        "wins": 7,
-        "losses": 31,
-        "win_rate": 18.4,
-        "total_pnl": -311.24,
-        "avg_pnl": -8.19
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "total_pnl": 0,
+        "avg_pnl": 0
       },
-      "recent_trades": [
-        {
-          "time": "2026-04-22T11:53:22.163439",
-          "direction": "LONG",
-          "pnl": -36.13,
-          "pnl_pct": -0.15,
-          "hold_minutes": 10.0
-        },
-        {
-          "time": "2026-04-22T14:02:37.337512",
-          "direction": "SHORT",
-          "pnl": -37.36,
-          "pnl_pct": -0.16,
-          "hold_minutes": 26.0
-        },
-        {
-          "time": "2026-04-22T14:11:23.069478",
-          "direction": "SHORT",
-          "pnl": -37.94,
-          "pnl_pct": -0.16,
-          "hold_minutes": 5.0
-        },
-        {
-          "time": "2026-04-22T15:31:23.064060",
-          "direction": "SHORT",
-          "pnl": -36.39,
-          "pnl_pct": -0.15,
-          "hold_minutes": 73.0
-        },
-        {
-          "time": "2026-04-22T15:41:25.686691",
-          "direction": "SHORT",
-          "pnl": -38.46,
-          "pnl_pct": -0.16,
-          "hold_minutes": 9.0
-        },
-        {
-          "time": "2026-04-22T15:50:12.706391",
-          "direction": "SHORT",
-          "pnl": -36.99,
-          "pnl_pct": -0.16,
-          "hold_minutes": 2.0
-        },
-        {
-          "time": "2026-04-22T15:52:30.800376",
-          "direction": "SHORT",
-          "pnl": -38.24,
-          "pnl_pct": -0.16,
-          "hold_minutes": 2.0
-        },
-        {
-          "time": "2026-04-22T16:10:47.706768",
-          "direction": "SHORT",
-          "pnl": -37.57,
-          "pnl_pct": -0.16,
-          "hold_minutes": 5.0
-        },
-        {
-          "time": "2026-04-22T16:22:31.246177",
-          "direction": "SHORT",
-          "pnl": -41.15,
-          "pnl_pct": -0.17,
-          "hold_minutes": 6.0
-        },
-        {
-          "time": "2026-04-22T16:30:21.133589",
-          "direction": "LONG",
-          "pnl": -40.32,
-          "pnl_pct": -0.17,
-          "hold_minutes": 8.0
-        }
-      ],
+      "recent_trades": [],
       "health_status": "UNKNOWN"
     },
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-22 16:49:52,323 - INFO - [HEARTBEAT] Price: $78,883.77",
+      "last_update": "2026-04-22 17:00:03",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -277,67 +206,16 @@
         "confidence": 0,
         "time": null
       },
-      "open_position": {
-        "direction": "LONG",
-        "size": 3,
-        "entry_price": 78807.88,
-        "tp_price": 79201.9194,
-        "sl_price": 78689.66818000001,
-        "entry_time": "2026-04-22 16:47:34",
-        "adopted": false
-      },
+      "open_position": null,
       "performance": {
-        "total_trades": 6,
+        "total_trades": 0,
         "wins": 0,
-        "losses": 6,
-        "win_rate": 0.0,
-        "total_pnl": -241.13,
-        "avg_pnl": -40.19
+        "losses": 0,
+        "win_rate": 0,
+        "total_pnl": 0,
+        "avg_pnl": 0
       },
-      "recent_trades": [
-        {
-          "time": "2026-04-22T14:11:22.102485",
-          "direction": "SHORT",
-          "pnl": -38.72,
-          "pnl_pct": -0.16,
-          "hold_minutes": 5.0
-        },
-        {
-          "time": "2026-04-22T15:31:41.529350",
-          "direction": "SHORT",
-          "pnl": -54.85,
-          "pnl_pct": -0.23,
-          "hold_minutes": 5.0
-        },
-        {
-          "time": "2026-04-22T15:41:25.671916",
-          "direction": "SHORT",
-          "pnl": -35.61,
-          "pnl_pct": -0.15,
-          "hold_minutes": 9.0
-        },
-        {
-          "time": "2026-04-22T15:50:06.691714",
-          "direction": "SHORT",
-          "pnl": -36.42,
-          "pnl_pct": -0.15,
-          "hold_minutes": 1.0
-        },
-        {
-          "time": "2026-04-22T16:10:44.415197",
-          "direction": "SHORT",
-          "pnl": -36.17,
-          "pnl_pct": -0.15,
-          "hold_minutes": 4.0
-        },
-        {
-          "time": "2026-04-22T16:22:32.636925",
-          "direction": "SHORT",
-          "pnl": -39.36,
-          "pnl_pct": -0.17,
-          "hold_minutes": 6.0
-        }
-      ],
+      "recent_trades": [],
       "health_status": "UNKNOWN"
     }
   ]
