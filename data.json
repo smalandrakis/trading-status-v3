@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-23T22:40:01.507471",
+  "generated_at": "2026-04-23T22:50:08.535988",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-04-23T22:40:01.507482"
+    "last_health_check": "2026-04-23T22:50:08.536007"
   },
   "bots": [
     {
       "name": "BTC Swing Bot (2.5/1.0)",
       "status": "running",
-      "last_update": "2026-04-23 22:35:05,225",
+      "last_update": "2026-04-23 22:45:37,755",
       "config": {
         "tp_pct": 2.5,
         "sl_pct": 1.0,
@@ -64,7 +64,7 @@
     {
       "name": "BTC High Frequency (1.0/0.5)",
       "status": "running",
-      "last_update": "2026-04-23 22:35:09,699",
+      "last_update": "2026-04-23 22:45:37,754",
       "config": {
         "tp_pct": 1.0,
         "sl_pct": 0.5,
@@ -166,7 +166,7 @@
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-23 22:39:53,540 - INFO - [HEARTBEAT] Price: $77,978.00",
+      "last_update": "2026-04-23 22:49:56,423 - INFO - [HEARTBEAT] Price: $77,920.66",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -279,7 +279,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-23 22:40:02",
+      "last_update": "2026-04-23 22:50:09",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
