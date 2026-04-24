@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-24T20:10:01.182224",
+  "generated_at": "2026-04-24T20:20:00.749436",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-04-24T20:10:01.182232"
+    "last_health_check": "2026-04-24T20:20:00.749452"
   },
   "bots": [
     {
       "name": "BTC Swing Bot (2.5/1.0)",
       "status": "running",
-      "last_update": "2026-04-24 20:09:09,899",
+      "last_update": "2026-04-24 20:19:11,292",
       "config": {
         "tp_pct": 2.5,
         "sl_pct": 1.0,
@@ -24,33 +24,27 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 43.0,
-        "time": "2026-04-24 20:09:09,899"
+        "confidence": 42.5,
+        "time": "2026-04-24 20:19:11,292"
       },
-      "open_position": null,
+      "open_position": {
+        "direction": "LONG",
+        "size": 1,
+        "entry_price": 77519.26,
+        "tp_price": 79457.24149999999,
+        "sl_price": 76744.0674,
+        "entry_time": "unknown",
+        "adopted": false
+      },
       "performance": {
-        "total_trades": 243,
-        "wins": 241,
+        "total_trades": 245,
+        "wins": 243,
         "losses": 2,
         "win_rate": 99.2,
-        "total_pnl": 294135.48,
-        "avg_pnl": 1210.43
+        "total_pnl": 296244.91,
+        "avg_pnl": 1209.16
       },
       "recent_trades": [
-        {
-          "time": "2026-04-24 19:20:07",
-          "direction": "LONG",
-          "pnl": 1083.01,
-          "pnl_pct": 2.87,
-          "hold_minutes": 0
-        },
-        {
-          "time": "2026-04-24 19:25:07",
-          "direction": "LONG",
-          "pnl": 1076.46,
-          "pnl_pct": 2.85,
-          "hold_minutes": 0
-        },
         {
           "time": "2026-04-24 19:30:07",
           "direction": "LONG",
@@ -106,6 +100,20 @@
           "pnl": 1089.72,
           "pnl_pct": 2.89,
           "hold_minutes": 0
+        },
+        {
+          "time": "2026-04-24 20:10:07",
+          "direction": "LONG",
+          "pnl": 1082.4,
+          "pnl_pct": 2.87,
+          "hold_minutes": 0
+        },
+        {
+          "time": "2026-04-24 20:15:07",
+          "direction": "LONG",
+          "pnl": 1027.03,
+          "pnl_pct": 2.72,
+          "hold_minutes": 0
         }
       ],
       "health_status": "HEALTHY"
@@ -113,7 +121,7 @@
     {
       "name": "BTC High Frequency (1.0/0.5)",
       "status": "running",
-      "last_update": "2026-04-24 20:09:14,611",
+      "last_update": "2026-04-24 20:19:15,549",
       "config": {
         "tp_pct": 1.0,
         "sl_pct": 0.5,
@@ -125,8 +133,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 82.8,
-        "time": "2026-04-24 20:09:14,610"
+        "confidence": 85.3,
+        "time": "2026-04-24 20:19:15,548"
       },
       "open_position": {
         "direction": "SHORT",
@@ -215,7 +223,7 @@
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-24 20:09:58,370 - INFO - [HEARTBEAT] Price: $77,630.00",
+      "last_update": "2026-04-24 20:19:59,947 - INFO - [HEARTBEAT] Price: $77,415.79",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -328,7 +336,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-24 20:09:34,868 - INFO - [HEARTBEAT] Price: $77,608.94",
+      "last_update": "2026-04-24 20:19:34,966 - INFO - [HEARTBEAT] Price: $77,451.35",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -441,7 +449,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-04-24 20:09:36,714 - INFO - [HEARTBEAT] Price: $77,608.95",
+      "last_update": "2026-04-24 20:19:38,321 - INFO - [HEARTBEAT] Price: $77,456.86",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
