@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-24T12:19:47.836133",
+  "generated_at": "2026-04-24T12:20:01.121587",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-04-24T12:19:47.836157"
+    "last_health_check": "2026-04-24T12:20:01.121599"
   },
   "bots": [
     {
@@ -328,7 +328,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-24 12:19:28,692 - INFO - [HEARTBEAT] Price: $77,574.00",
+      "last_update": "2026-04-24 12:19:58,697 - INFO - [HEARTBEAT] Price: $77,574.00",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
