@@ -27,7 +27,7 @@
 
         <div class="card rounded-xl p-6 mb-6">
             <h2 class="text-2xl font-bold mb-4">
-                <i class="fas fa-flask mr-2"></i>A/B Test: 0.50 vs 0.60 Threshold
+                <i class="fas fa-flask mr-2"></i>A/B Test: 0.50 vs 0.55 Threshold
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
                 <div class="bg-gray-800/30 rounded-lg p-4">
@@ -84,10 +84,9 @@
                     const conf = safe((bot.current_signal || {}).confidence);
 
                     let icon = '📊';
-                    if (bot.name.includes('Swing')) icon = '🎯';
-                    if (bot.name.includes('High Frequency')) icon = '⚡';
                     if (bot.name.includes('0.50')) icon = '📈';
-                    if (bot.name.includes('0.60')) icon = '🎯';
+                    if (bot.name.includes('0.55')) icon = '⚖️';
+                    if (bot.name.includes('0.70')) icon = '💎';
 
                     return `<div class="card rounded-xl p-4">
                         <div class="flex items-center justify-between mb-3">
@@ -121,27 +120,27 @@
                 }).join('');
 
                 const b50 = bots.find(b => b.name.includes('0.50'));
-                const b60 = bots.find(b => b.name.includes('0.60'));
-                if (b50 && b60) {
+                const b55 = bots.find(b => b.name.includes('0.55'));
+                if (b50 && b55) {
                     const p50 = b50.performance || {};
-                    const p60 = b60.performance || {};
+                    const p55 = b55.performance || {};
                     const t50 = safe(p50.total_trades);
-                    const t60 = safe(p60.total_trades);
+                    const t55 = safe(p55.total_trades);
                     const w50 = safe(p50.win_rate);
-                    const w60 = safe(p60.win_rate);
+                    const w55 = safe(p55.win_rate);
                     const pnl50 = safe(p50.total_pnl);
-                    const pnl60 = safe(p60.total_pnl);
+                    const pnl55 = safe(p55.total_pnl);
                     const avg50 = safe(p50.avg_pnl);
-                    const avg60 = safe(p60.avg_pnl);
+                    const avg55 = safe(p55.avg_pnl);
 
-                    document.getElementById('compTrades').textContent = t50 + ' vs ' + t60;
-                    document.getElementById('compTradesWinner').textContent = t50>t60?'BOT_050':t60>t50?'BOT_060':'Tied';
-                    document.getElementById('compWR').textContent = w50.toFixed(1) + '% vs ' + w60.toFixed(1) + '%';
-                    document.getElementById('compWRWinner').textContent = w50>w60?'BOT_050':w60>w50?'BOT_060':'Tied';
-                    document.getElementById('compPnL').textContent = '$' + pnl50.toLocaleString() + ' vs $' + pnl60.toLocaleString();
-                    document.getElementById('compPnLWinner').innerHTML = pnl50>pnl60?'<span class="text-green-400">BOT_050</span>':pnl60>pnl50?'<span class="text-purple-400">BOT_060</span>':'Tied';
-                    document.getElementById('compAvgPnL').textContent = '$' + avg50.toFixed(2) + ' vs $' + avg60.toFixed(2);
-                    document.getElementById('compAvgPnLWinner').textContent = avg50>avg60?'BOT_050':avg60>avg50?'BOT_060':'Tied';
+                    document.getElementById('compTrades').textContent = t50 + ' vs ' + t55;
+                    document.getElementById('compTradesWinner').textContent = t50>t55?'BOT_050':t55>t50?'BOT_055':'Tied';
+                    document.getElementById('compWR').textContent = w50.toFixed(1) + '% vs ' + w55.toFixed(1) + '%';
+                    document.getElementById('compWRWinner').textContent = w50>w55?'BOT_050':w55>w50?'BOT_055':'Tied';
+                    document.getElementById('compPnL').textContent = '$' + pnl50.toLocaleString() + ' vs $' + pnl55.toLocaleString();
+                    document.getElementById('compPnLWinner').innerHTML = pnl50>pnl55?'<span class="text-green-400">BOT_050</span>':pnl55>pnl50?'<span class="text-purple-400">BOT_055</span>':'Tied';
+                    document.getElementById('compAvgPnL').textContent = '$' + avg50.toFixed(2) + ' vs $' + avg55.toFixed(2);
+                    document.getElementById('compAvgPnLWinner').textContent = avg50>avg55?'BOT_050':avg55>avg50?'BOT_055':'Tied';
                 }
             } catch (e) {
                 document.getElementById('lastUpdate').innerHTML =
