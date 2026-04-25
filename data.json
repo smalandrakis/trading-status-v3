@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-25T21:10:01.069066",
+  "generated_at": "2026-04-25T21:20:00.883937",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-04-25T21:10:01.069081"
+    "last_health_check": "2026-04-25T21:20:00.883954"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-25 21:09:35,355 - INFO - [HEARTBEAT] Price: $77,298.82",
+      "last_update": "2026-04-25 21:19:35,087 - INFO - [HEARTBEAT] Price: $77,332.99",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -28,8 +28,8 @@
       },
       "current_signal": {
         "signal": "LONG",
-        "confidence": 50.8,
-        "time": "2026-04-25 21:09:10,683"
+        "confidence": 56.4,
+        "time": "2026-04-25 21:19:08,327"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-25 21:09:40,591 - INFO - [HEARTBEAT] Price: $77,298.81",
+      "last_update": "2026-04-25 21:19:40,276 - INFO - [HEARTBEAT] Price: $77,334.99",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -132,9 +132,9 @@
         "strategy": "Balanced Quality - optimize quality \u00d7 volume"
       },
       "current_signal": {
-        "signal": "NEUTRAL",
-        "confidence": 50.8,
-        "time": "2026-04-25 21:09:13,909"
+        "signal": "LONG",
+        "confidence": 56.4,
+        "time": "2026-04-25 21:19:15,347"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +222,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-04-25 21:10:01",
+      "last_update": "2026-04-25 21:20:00",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
