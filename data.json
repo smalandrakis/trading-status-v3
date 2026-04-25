@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-25T13:00:01.112028",
+  "generated_at": "2026-04-25T13:10:01.465453",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-04-25T13:00:01.112043"
+    "last_health_check": "2026-04-25T13:10:01.465466"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-25 12:59:34,289 - INFO - [HEARTBEAT] Price: $77,791.66",
+      "last_update": "2026-04-25 13:09:35,460 - INFO - [HEARTBEAT] Price: $77,753.72",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -28,8 +28,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 66.9,
-        "time": "2026-04-25 12:59:07,367"
+        "confidence": 57.8,
+        "time": "2026-04-25 13:09:08,806"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-25 12:59:39,335 - INFO - [HEARTBEAT] Price: $77,791.65",
+      "last_update": "2026-04-25 13:09:40,582 - INFO - [HEARTBEAT] Price: $77,753.73",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,8 +133,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 66.9,
-        "time": "2026-04-25 12:59:11,975"
+        "confidence": 57.8,
+        "time": "2026-04-25 13:09:12,607"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +222,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-04-25 12:59:44,460 - INFO - [HEARTBEAT] Price: $77,800.48",
+      "last_update": "2026-04-25 13:09:45,984 - INFO - [HEARTBEAT] Price: $77,749.50",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -240,7 +240,7 @@
       "current_signal": {
         "signal": "NEUTRAL",
         "confidence": 0,
-        "time": "2026-04-25 12:59:17,843"
+        "time": "2026-04-25 13:09:18,379"
       },
       "open_position": null,
       "performance": {
