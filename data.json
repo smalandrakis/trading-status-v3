@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-25T10:00:01.550986",
+  "generated_at": "2026-04-25T10:10:01.440076",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-04-25T10:00:01.551001"
+    "last_health_check": "2026-04-25T10:10:01.440091"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-25 10:00:01",
+      "last_update": "2026-04-25 10:09:32,914 - INFO - [HEARTBEAT] Price: $77,561.40",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -27,9 +27,9 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "UNKNOWN",
-        "confidence": 0,
-        "time": null
+        "signal": "SHORT",
+        "confidence": 61.9,
+        "time": "2026-04-25 10:09:11,144"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-25 10:00:01",
+      "last_update": "2026-04-25 10:09:35,402 - INFO - [HEARTBEAT] Price: $77,564.91",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -132,9 +132,9 @@
         "strategy": "Balanced Quality - optimize quality \u00d7 volume"
       },
       "current_signal": {
-        "signal": "UNKNOWN",
-        "confidence": 0,
-        "time": null
+        "signal": "SHORT",
+        "confidence": 61.9,
+        "time": "2026-04-25 10:09:11,569"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +222,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-04-25 10:00:01",
+      "last_update": "2026-04-25 10:09:40,726 - INFO - [HEARTBEAT] Price: $77,564.91",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -238,9 +238,9 @@
         "filter": "Multi-Timeframe Aligned (1h + 4h bullish)"
       },
       "current_signal": {
-        "signal": "UNKNOWN",
+        "signal": "NEUTRAL",
         "confidence": 0,
-        "time": null
+        "time": "2026-04-25 10:09:12,618"
       },
       "open_position": null,
       "performance": {
