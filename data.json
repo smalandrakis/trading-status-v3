@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-25T15:20:01.778610",
+  "generated_at": "2026-04-25T15:30:01.464198",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-04-25T15:20:01.778621"
+    "last_health_check": "2026-04-25T15:30:01.464213"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-25 15:19:34,888 - INFO - [HEARTBEAT] Price: $77,609.45",
+      "last_update": "2026-04-25 15:29:35,658 - INFO - [HEARTBEAT] Price: $77,615.62",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -27,9 +27,9 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "SHORT",
-        "confidence": 54.2,
-        "time": "2026-04-25 15:19:06,704"
+        "signal": "LONG",
+        "confidence": 50.8,
+        "time": "2026-04-25 15:29:09,024"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-25 15:19:40,187 - INFO - [HEARTBEAT] Price: $77,609.45",
+      "last_update": "2026-04-25 15:29:40,940 - INFO - [HEARTBEAT] Price: $77,615.61",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,8 +133,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 54.2,
-        "time": "2026-04-25 15:19:13,218"
+        "confidence": 50.8,
+        "time": "2026-04-25 15:29:14,359"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +222,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-04-25 15:19:45,463 - INFO - [HEARTBEAT] Price: $77,609.46",
+      "last_update": "2026-04-25 15:29:46,371 - INFO - [HEARTBEAT] Price: $77,615.62",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -240,7 +240,7 @@
       "current_signal": {
         "signal": "NEUTRAL",
         "confidence": 0,
-        "time": "2026-04-25 15:19:20,805"
+        "time": "2026-04-25 15:29:20,076"
       },
       "open_position": null,
       "performance": {
