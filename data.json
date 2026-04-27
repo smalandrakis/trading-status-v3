@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-27T17:50:00.855182",
+  "generated_at": "2026-04-27T18:00:02.041458",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-04-27T17:50:00.855196"
+    "last_health_check": "2026-04-27T18:00:02.041474"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-27 17:50:00",
+      "last_update": "2026-04-27 18:00:02",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -28,8 +28,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 50.8,
-        "time": "2026-04-27 17:45:06,399"
+        "confidence": 51.1,
+        "time": "2026-04-27 17:55:06,763"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-27 17:49:40,293 - INFO - [HEARTBEAT] Price: $76,843.07",
+      "last_update": "2026-04-27 17:59:40,754 - INFO - [HEARTBEAT] Price: $76,793.09",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,8 +133,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 52.8,
-        "time": "2026-04-27 17:49:15,402"
+        "confidence": 51.8,
+        "time": "2026-04-27 17:59:14,059"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +222,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-04-27 17:50:01",
+      "last_update": "2026-04-27 18:00:02",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -240,7 +240,7 @@
       "current_signal": {
         "signal": "NEUTRAL",
         "confidence": 0,
-        "time": "2026-04-27 17:49:53,069"
+        "time": "2026-04-27 17:59:56,171"
       },
       "open_position": null,
       "performance": {
