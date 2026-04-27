@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-27T07:50:01.519470",
+  "generated_at": "2026-04-27T08:00:02.030586",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-04-27T07:50:01.519486"
+    "last_health_check": "2026-04-27T08:00:02.030601"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-27 07:50:01",
+      "last_update": "2026-04-27 08:00:02",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -28,8 +28,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 52.0,
-        "time": "2026-04-27 07:49:09,947"
+        "confidence": 63.0,
+        "time": "2026-04-27 07:59:10,310"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-27 07:50:01",
+      "last_update": "2026-04-27 08:00:02",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -132,9 +132,9 @@
         "strategy": "Balanced Quality - optimize quality \u00d7 volume"
       },
       "current_signal": {
-        "signal": "NEUTRAL",
-        "confidence": 52.0,
-        "time": "2026-04-27 07:49:15,462"
+        "signal": "SHORT",
+        "confidence": 62.8,
+        "time": "2026-04-27 07:59:15,176"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +222,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-04-27 07:50:01",
+      "last_update": "2026-04-27 08:00:02",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
