@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-27T22:06:43.014495",
+  "generated_at": "2026-04-27T22:10:00.931376",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-04-27T22:06:43.014516"
+    "last_health_check": "2026-04-27T22:10:00.931394"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-27 22:06:43",
+      "last_update": "2026-04-27 22:10:00,145 - INFO - [HEARTBEAT] Price: $76,911.92",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -27,11 +27,19 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "LONG",
-        "confidence": 52.9,
-        "time": "2026-04-27 22:05:39,450"
+        "signal": "UNKNOWN",
+        "confidence": 0,
+        "time": null
       },
-      "open_position": null,
+      "open_position": {
+        "direction": "LONG",
+        "size": 3,
+        "entry_price": 76994.23,
+        "tp_price": 77379.20115,
+        "sl_price": 76878.738655,
+        "entry_time": "2026-04-27 22:07:33",
+        "adopted": false
+      },
       "performance": {
         "total_trades": 53,
         "wins": 13,
@@ -117,7 +125,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-27 22:06:43",
+      "last_update": "2026-04-27 22:10:00,145 - INFO - [HEARTBEAT] Price: $76,911.92",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,8 +141,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 51.8,
-        "time": "2026-04-27 22:06:34,178"
+        "confidence": 51.5,
+        "time": "2026-04-27 22:08:34,798"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +230,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-04-27 22:06:43",
+      "last_update": "2026-04-27 22:10:01",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -239,8 +247,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 0.2,
-        "time": "2026-04-27 22:06:33,865"
+        "confidence": 0.7,
+        "time": "2026-04-27 22:09:34,781"
       },
       "open_position": null,
       "performance": {
