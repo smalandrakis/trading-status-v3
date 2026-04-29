@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-29T13:50:01.484508",
+  "generated_at": "2026-04-29T14:00:01.197115",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-04-29T13:50:01.484523"
+    "last_health_check": "2026-04-29T14:00:01.197129"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-04-29 13:49:45,630 - INFO - [HEARTBEAT] Price: $77,601.28",
+      "last_update": "2026-04-29 13:59:45,713 - INFO - [HEARTBEAT] Price: $77,596.40",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -125,7 +125,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-04-29 13:50:01",
+      "last_update": "2026-04-29 14:00:01",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -141,8 +141,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 53.2,
-        "time": "2026-04-29 13:49:56,285"
+        "confidence": 52.4,
+        "time": "2026-04-29 13:59:59,633"
       },
       "open_position": null,
       "performance": {
@@ -230,7 +230,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-04-29 13:50:01",
+      "last_update": "2026-04-29 14:00:01",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -248,7 +248,7 @@
       "current_signal": {
         "signal": "NEUTRAL",
         "confidence": 0.2,
-        "time": "2026-04-29 13:50:00,562"
+        "time": "2026-04-29 13:59:33,951"
       },
       "open_position": null,
       "performance": {
