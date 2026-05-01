@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-02T01:10:01.419600",
+  "generated_at": "2026-05-02T01:20:01.139589",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-02T01:10:01.419618"
+    "last_health_check": "2026-05-02T01:20:01.139608"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-02 01:09:44,034 - INFO - [HEARTBEAT] Price: $78,124.81",
+      "last_update": "2026-05-02 01:19:44,211 - INFO - [HEARTBEAT] Price: $78,085.00",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -125,7 +125,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-02 01:09:49,261 - INFO - [HEARTBEAT] Price: $78,124.81",
+      "last_update": "2026-05-02 01:19:49,408 - INFO - [HEARTBEAT] Price: $78,085.00",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -140,9 +140,9 @@
         "strategy": "Balanced Quality - optimize quality \u00d7 volume"
       },
       "current_signal": {
-        "signal": "NEUTRAL",
-        "confidence": 51.3,
-        "time": "2026-05-02 01:08:31,209"
+        "signal": "SHORT",
+        "confidence": 55.9,
+        "time": "2026-05-02 01:18:35,047"
       },
       "open_position": null,
       "performance": {
@@ -230,7 +230,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-05-02 01:10:01",
+      "last_update": "2026-05-02 01:20:01",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -247,8 +247,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 0.2,
-        "time": "2026-05-02 01:09:41,078"
+        "confidence": 0.7,
+        "time": "2026-05-02 01:20:00,273"
       },
       "open_position": null,
       "performance": {
