@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-01T08:10:00.964746",
+  "generated_at": "2026-05-01T08:20:00.847882",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-01T08:10:00.964763"
+    "last_health_check": "2026-05-01T08:20:00.847896"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-01 08:10:01",
+      "last_update": "2026-05-01 08:19:57,638 - INFO - [HEARTBEAT] Price: $77,137.93",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -31,7 +31,15 @@
         "confidence": 0,
         "time": null
       },
-      "open_position": null,
+      "open_position": {
+        "direction": "LONG",
+        "size": 5,
+        "entry_price": 77126.11378500001,
+        "tp_price": 77511.744353925,
+        "sl_price": 77010.42461432252,
+        "entry_time": "2026-05-01 08:12:16",
+        "adopted": false
+      },
       "performance": {
         "total_trades": 103,
         "wins": 26,
@@ -117,7 +125,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-01 08:10:00,931 - INFO - [HEARTBEAT] Price: $77,137.14",
+      "last_update": "2026-05-01 08:19:31,089 - INFO - [HEARTBEAT] Price: $77,158.05",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -230,7 +238,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-05-01 08:10:01",
+      "last_update": "2026-05-01 08:20:01",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -247,8 +255,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 0.5,
-        "time": "2026-05-01 08:09:49,470"
+        "confidence": 0.2,
+        "time": "2026-05-01 08:19:36,826"
       },
       "open_position": null,
       "performance": {
