@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-02T11:10:01.634786",
+  "generated_at": "2026-05-02T11:20:01.390429",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-02T11:10:01.634804"
+    "last_health_check": "2026-05-02T11:20:01.390447"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-02 11:09:53,624 - INFO - [HEARTBEAT] Price: $78,296.43",
+      "last_update": "2026-05-02 11:19:53,801 - INFO - [HEARTBEAT] Price: $78,328.68",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -28,8 +28,8 @@
       },
       "current_signal": {
         "signal": "LONG",
-        "confidence": 64.7,
-        "time": "2026-05-02 11:07:57,218"
+        "confidence": 82.7,
+        "time": "2026-05-02 11:18:00,143"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-02 11:09:58,925 - INFO - [HEARTBEAT] Price: $78,296.44",
+      "last_update": "2026-05-02 11:19:59,094 - INFO - [HEARTBEAT] Price: $78,328.68",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,8 +133,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 61.7,
-        "time": "2026-05-02 11:08:25,167"
+        "confidence": 66.4,
+        "time": "2026-05-02 11:18:28,949"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +222,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-05-02 11:10:01",
+      "last_update": "2026-05-02 11:20:01",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -240,7 +240,7 @@
       "current_signal": {
         "signal": "NEUTRAL",
         "confidence": 0.2,
-        "time": "2026-05-02 11:09:44,871"
+        "time": "2026-05-02 11:19:57,935"
       },
       "open_position": null,
       "performance": {
