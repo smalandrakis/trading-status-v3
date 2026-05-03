@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-03T06:40:01.394484",
+  "generated_at": "2026-05-03T06:50:01.188194",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-03T06:40:01.394491"
+    "last_health_check": "2026-05-03T06:50:01.188202"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-03 06:39:43,775 - INFO - [HEARTBEAT] Price: $78,218.88",
+      "last_update": "2026-05-03 06:49:43,974 - INFO - [HEARTBEAT] Price: $78,150.00",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -27,9 +27,9 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "LONG",
-        "confidence": 67.9,
-        "time": "2026-05-03 06:38:59,388"
+        "signal": "SHORT",
+        "confidence": 78.7,
+        "time": "2026-05-03 06:49:02,982"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-03 06:39:48,945 - INFO - [HEARTBEAT] Price: $78,218.88",
+      "last_update": "2026-05-03 06:49:49,162 - INFO - [HEARTBEAT] Price: $78,150.00",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -132,9 +132,9 @@
         "strategy": "Balanced Quality - optimize quality \u00d7 volume"
       },
       "current_signal": {
-        "signal": "NEUTRAL",
-        "confidence": 50.7,
-        "time": "2026-05-03 06:38:37,538"
+        "signal": "LONG",
+        "confidence": 56.9,
+        "time": "2026-05-03 06:48:42,657"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +222,7 @@
     {
       "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
       "status": "running",
-      "last_update": "2026-05-03 06:40:01",
+      "last_update": "2026-05-03 06:50:01",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -239,8 +239,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 0.1,
-        "time": "2026-05-03 06:39:50,678"
+        "confidence": 0.4,
+        "time": "2026-05-03 06:49:41,646"
       },
       "open_position": null,
       "performance": {
