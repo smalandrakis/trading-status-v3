@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-03T21:00:01.110996",
+  "generated_at": "2026-05-03T21:08:23.956850",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-03T21:00:01.111016"
+    "last_health_check": "2026-05-03T21:08:23.956861"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-03 20:59:46,210 - INFO - [HEARTBEAT] Price: $78,739.68",
+      "last_update": "2026-05-03 21:08:17,312 - INFO - [HEARTBEAT] Price: $78,757.08",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -28,8 +28,8 @@
       },
       "current_signal": {
         "signal": "LONG",
-        "confidence": 86.6,
-        "time": "2026-05-03 20:57:39,384"
+        "confidence": 70.8,
+        "time": "2026-05-03 21:07:41,887"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-03 20:59:51,532 - INFO - [HEARTBEAT] Price: $78,739.67",
+      "last_update": "2026-05-03 21:08:22,671 - INFO - [HEARTBEAT] Price: $78,757.08",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,8 +133,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 52.1,
-        "time": "2026-05-03 20:58:55,788"
+        "confidence": 54.1,
+        "time": "2026-05-03 21:07:01,865"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +222,7 @@
     {
       "name": "MBT Futures Bot (0.90 threshold) - BOT090",
       "status": "running",
-      "last_update": "2026-05-03 21:00:01",
+      "last_update": "2026-05-03 21:08:24",
       "config": {
         "symbol": "MBT",
         "threshold": 0.9,
@@ -251,7 +251,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-03 21:00:01",
+      "last_update": "2026-05-03 21:08:24",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -263,6 +263,42 @@
         "timeout_minutes": 60,
         "client_id": 426,
         "strategy": "Pure Momentum - 0.05% move trigger",
+        "paper_trading": true
+      },
+      "current_signal": {
+        "signal": "UNKNOWN",
+        "confidence": 0,
+        "time": null
+      },
+      "open_position": null,
+      "performance": {
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "total_pnl": 0,
+        "avg_pnl": 0
+      },
+      "recent_trades": [],
+      "health_status": "UNKNOWN"
+    },
+    {
+      "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
+      "status": "running",
+      "last_update": "2026-05-03 21:08:24",
+      "config": {
+        "symbol": "MBT",
+        "entry_move_pct": 0.05,
+        "tp_pct": 0.15,
+        "sl_pct": 0.025,
+        "rr_ratio": "6.0:1",
+        "ml_threshold": 0.3,
+        "ml_filter": "ML confidence >= 30%",
+        "position_size": "5 contracts (0.5 BTC)",
+        "max_positions": 1,
+        "timeout_minutes": 60,
+        "client_id": 428,
+        "strategy": "ML-Filtered Momentum - ML + 0.05% trigger",
         "paper_trading": true
       },
       "current_signal": {

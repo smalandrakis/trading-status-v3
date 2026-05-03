@@ -23,7 +23,7 @@
             <div id="lastUpdate" class="text-sm text-gray-500 mt-2"></div>
         </div>
 
-        <div id="botsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6"></div>
+        <div id="botsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 mb-6"></div>
 
         <div class="card rounded-xl p-6 mb-6">
             <h2 class="text-2xl font-bold mb-4">
@@ -87,7 +87,8 @@
                     if (bot.name.includes('0.50')) icon = '📈';
                     if (bot.name.includes('0.55')) icon = '⚖️';
                     if (bot.name.includes('0.90') || bot.name.includes('BOT090')) icon = '🚀';
-                    if (bot.name.includes('MOMENTUM')) icon = '⚡';
+                    if (bot.name.includes('MOMENTUM') && !bot.name.includes('ML')) icon = '⚡';
+                    if (bot.name.includes('MOMENTUM_ML')) icon = '🧠';
 
                     return `<div class="card rounded-xl p-4">
                         <div class="flex items-center justify-between mb-3">
