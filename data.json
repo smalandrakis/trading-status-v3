@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-03T20:47:03.123190",
+  "generated_at": "2026-05-03T20:50:00.964795",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-03T20:47:03.123199"
+    "last_health_check": "2026-05-03T20:50:00.964812"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-03 20:46:44,630 - INFO - [HEARTBEAT] Price: $78,699.44",
+      "last_update": "2026-05-03 20:49:45,012 - INFO - [HEARTBEAT] Price: $78,723.08",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -28,8 +28,8 @@
       },
       "current_signal": {
         "signal": "LONG",
-        "confidence": 76.8,
-        "time": "2026-05-03 20:42:36,256"
+        "confidence": 81.7,
+        "time": "2026-05-03 20:47:37,143"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-03 20:46:49,921 - INFO - [HEARTBEAT] Price: $78,699.44",
+      "last_update": "2026-05-03 20:49:50,305 - INFO - [HEARTBEAT] Price: $78,723.08",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,8 +133,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 52.7,
-        "time": "2026-05-03 20:46:47,984"
+        "confidence": 53.3,
+        "time": "2026-05-03 20:48:48,121"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +222,7 @@
     {
       "name": "MBT Futures Bot (0.90 threshold) - BOT090",
       "status": "running",
-      "last_update": "2026-05-03 20:47:03",
+      "last_update": "2026-05-03 20:50:01",
       "config": {
         "symbol": "MBT",
         "threshold": 0.9,
