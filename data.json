@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-03T20:52:39.524538",
+  "generated_at": "2026-05-03T21:00:01.110996",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-03T20:52:39.524556"
+    "last_health_check": "2026-05-03T21:00:01.111016"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-03 20:52:39",
+      "last_update": "2026-05-03 20:59:46,210 - INFO - [HEARTBEAT] Price: $78,739.68",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -28,8 +28,8 @@
       },
       "current_signal": {
         "signal": "LONG",
-        "confidence": 85.0,
-        "time": "2026-05-03 20:52:38,264"
+        "confidence": 86.6,
+        "time": "2026-05-03 20:57:39,384"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-03 20:52:20,573 - INFO - [HEARTBEAT] Price: $78,760.72",
+      "last_update": "2026-05-03 20:59:51,532 - INFO - [HEARTBEAT] Price: $78,739.67",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,8 +133,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 53.1,
-        "time": "2026-05-03 20:50:48,165"
+        "confidence": 52.1,
+        "time": "2026-05-03 20:58:55,788"
       },
       "open_position": null,
       "performance": {
@@ -222,7 +222,7 @@
     {
       "name": "MBT Futures Bot (0.90 threshold) - BOT090",
       "status": "running",
-      "last_update": "2026-05-03 20:52:39",
+      "last_update": "2026-05-03 21:00:01",
       "config": {
         "symbol": "MBT",
         "threshold": 0.9,
@@ -251,7 +251,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-03 20:52:39",
+      "last_update": "2026-05-03 21:00:01",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
