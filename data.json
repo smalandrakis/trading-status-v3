@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-03T20:40:01.435642",
+  "generated_at": "2026-05-03T20:47:03.123190",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-03T20:40:01.435657"
+    "last_health_check": "2026-05-03T20:47:03.123199"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-03 20:39:43,821 - INFO - [HEARTBEAT] Price: $78,697.50",
+      "last_update": "2026-05-03 20:46:44,630 - INFO - [HEARTBEAT] Price: $78,699.44",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -28,8 +28,8 @@
       },
       "current_signal": {
         "signal": "LONG",
-        "confidence": 82.9,
-        "time": "2026-05-03 20:37:34,879"
+        "confidence": 76.8,
+        "time": "2026-05-03 20:42:36,256"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-03 20:39:49,152 - INFO - [HEARTBEAT] Price: $78,700.01",
+      "last_update": "2026-05-03 20:46:49,921 - INFO - [HEARTBEAT] Price: $78,699.44",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,8 +133,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 53.4,
-        "time": "2026-05-03 20:38:41,879"
+        "confidence": 52.7,
+        "time": "2026-05-03 20:46:47,984"
       },
       "open_position": null,
       "performance": {
@@ -220,27 +220,21 @@
       "health_status": "UNKNOWN"
     },
     {
-      "name": "BTC Ultra Quality Strategy (0.70 threshold MTF)",
+      "name": "MBT Futures Bot (0.90 threshold) - BOT090",
       "status": "running",
-      "last_update": "2026-05-03 20:40:01",
+      "last_update": "2026-05-03 20:47:03",
       "config": {
-        "tp_pct": 0.5,
-        "sl_pct": 0.15,
-        "threshold": 0.7,
-        "position_sizing": "3x-6x",
-        "expected_trades_per_month": "1,830",
-        "expected_win_rate": 51.26,
-        "expected_ev_per_trade": 73,
-        "expected_pnl_160d": 716280,
-        "features": "92 (D2 + Price Action)",
-        "model": "Every 25th Tick + MTF Filter",
-        "strategy": "Ultra Selective - highest quality only",
-        "filter": "Multi-Timeframe Aligned (1h + 4h bullish)"
+        "symbol": "MBT",
+        "threshold": 0.9,
+        "client_id": 90,
+        "model": "LightGBM",
+        "strategy": "ML Trading Bot - MBT Futures",
+        "paper_trading": true
       },
       "current_signal": {
-        "signal": "NEUTRAL",
-        "confidence": 0.3,
-        "time": "2026-05-03 20:39:43,591"
+        "signal": "UNKNOWN",
+        "confidence": 0,
+        "time": null
       },
       "open_position": null,
       "performance": {
