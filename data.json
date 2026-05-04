@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-04T02:10:01.708362",
+  "generated_at": "2026-05-04T02:20:01.643035",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-04T02:10:01.708379"
+    "last_health_check": "2026-05-04T02:20:01.643055"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-04 02:09:54,690 - INFO - [HEARTBEAT] Price: $78,464.10",
+      "last_update": "2026-05-04 02:19:57,383 - INFO - [HEARTBEAT] Price: $78,440.66",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -125,7 +125,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-04 02:09:56,524 - INFO - [HEARTBEAT] Price: $78,470.00",
+      "last_update": "2026-05-04 02:19:59,347 - INFO - [HEARTBEAT] Price: $78,440.66",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -141,8 +141,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 59.7,
-        "time": "2026-05-04 02:08:38,917"
+        "confidence": 58.3,
+        "time": "2026-05-04 02:18:46,498"
       },
       "open_position": null,
       "performance": {
@@ -230,7 +230,7 @@
     {
       "name": "MBT Futures Bot (0.90 threshold) - BOT090",
       "status": "running",
-      "last_update": "2026-05-04 02:10:01",
+      "last_update": "2026-05-04 02:20:01",
       "config": {
         "symbol": "MBT",
         "threshold": 0.9,
@@ -259,7 +259,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-04 02:09:54,690 - INFO - Price: $78461.32",
+      "last_update": "2026-05-04 02:19:53,289 - INFO - Price: $78440.67",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -293,7 +293,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-04 02:10:01",
+      "last_update": "2026-05-04 02:20:01",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
