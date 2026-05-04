@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T00:10:01.629846",
+  "generated_at": "2026-05-05T00:20:00.880720",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -7,21 +7,21 @@
   "ib_account_pnl": {
     "status": "connected",
     "realized_pnl": -648.5,
-    "unrealized_pnl": 248.2,
-    "total_pnl": -400.3,
+    "unrealized_pnl": 183.10999999999996,
+    "total_pnl": -465.39000000000004,
     "raw_realized": -17570.56,
-    "raw_unrealized": -20.08,
+    "raw_unrealized": -85.17,
     "baseline_active": true
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-05T00:10:02.499887"
+    "last_health_check": "2026-05-05T00:20:01.680724"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-05 00:09:54,793 - INFO - [HEARTBEAT] Price: $80,313.46",
+      "last_update": "2026-05-05 00:19:54,923 - INFO - [HEARTBEAT] Price: $80,295.67",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -63,7 +63,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-05 00:09:54,807 - INFO - [HEARTBEAT] Price: $80,313.46",
+      "last_update": "2026-05-05 00:19:54,956 - INFO - [HEARTBEAT] Price: $80,295.67",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -79,8 +79,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 55.8,
-        "time": "2026-05-05 00:08:36,646"
+        "confidence": 59.9,
+        "time": "2026-05-05 00:18:40,787"
       },
       "open_position": null,
       "performance": {
@@ -97,7 +97,7 @@
     {
       "name": "MBT Futures Bot (0.90 threshold) - BOT090",
       "status": "running",
-      "last_update": "2026-05-05 00:10:02",
+      "last_update": "2026-05-05 00:20:02",
       "config": {
         "symbol": "MBT",
         "threshold": 0.9,
