@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-04T18:32:19.484283",
+  "generated_at": "2026-05-04T18:40:00.873784",
   "binance_connection": {
-    "status": "disconnected",
-    "message": "HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x109715400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"
+    "status": "connected",
+    "message": "Binance API accessible"
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-04T18:32:19.484299"
+    "last_health_check": "2026-05-04T18:40:00.873807"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-04 18:32:19",
+      "last_update": "2026-05-04 18:39:35,755 - INFO - [HEARTBEAT] Price: $80,281.79",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -28,8 +28,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 72.3,
-        "time": "2026-05-04 18:19:51,296"
+        "confidence": 57.1,
+        "time": "2026-05-04 18:37:15,070"
       },
       "open_position": null,
       "performance": {
@@ -117,7 +117,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-04 18:32:19",
+      "last_update": "2026-05-04 18:39:38,678 - INFO - [HEARTBEAT] Price: $80,298.49",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,8 +133,8 @@
       },
       "current_signal": {
         "signal": "NEUTRAL",
-        "confidence": 51.2,
-        "time": "2026-05-04 18:21:11,593"
+        "confidence": 53.9,
+        "time": "2026-05-04 18:39:19,956"
       },
       "open_position": null,
       "performance": {
@@ -187,7 +187,7 @@
     {
       "name": "MBT Futures Bot (0.90 threshold) - BOT090",
       "status": "running",
-      "last_update": "2026-05-04 18:32:19",
+      "last_update": "2026-05-04 18:40:01",
       "config": {
         "symbol": "MBT",
         "threshold": 0.9,
@@ -287,7 +287,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-04 18:32:19",
+      "last_update": "2026-05-04 18:40:01",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -392,7 +392,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-04 18:32:19",
+      "last_update": "2026-05-04 18:40:01",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
