@@ -53,6 +53,27 @@
             </div>
         </div>
 
+        <div class="card rounded-xl p-6 mb-6">
+            <h2 class="text-2xl font-bold mb-4">
+                <i class="fas fa-building-columns mr-2"></i>IB Gateway Account P&L (Today)
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                <div class="bg-gray-800/30 rounded-lg p-4">
+                    <div class="text-gray-400 text-sm mb-2">Realized P&L</div>
+                    <div id="ibRealizedPnL" class="text-2xl font-bold">--</div>
+                </div>
+                <div class="bg-gray-800/30 rounded-lg p-4">
+                    <div class="text-gray-400 text-sm mb-2">Unrealized P&L</div>
+                    <div id="ibUnrealizedPnL" class="text-2xl font-bold">--</div>
+                </div>
+                <div class="bg-gray-800/30 rounded-lg p-4">
+                    <div class="text-gray-400 text-sm mb-2">Total P&L</div>
+                    <div id="ibTotalPnL" class="text-2xl font-bold">--</div>
+                </div>
+            </div>
+            <div id="ibStatus" class="text-sm text-gray-500 text-center mt-3"></div>
+        </div>
+
         <div class="text-center text-gray-500 text-sm">
             <p>Auto-refreshes every 30s | V3</p>
         </div>
@@ -143,6 +164,27 @@
                     document.getElementById('compPnLWinner').innerHTML = pnl50>pnl55?'<span class="text-green-400">BOT_050</span>':pnl55>pnl50?'<span class="text-purple-400">BOT_055</span>':'Tied';
                     document.getElementById('compAvgPnL').textContent = '$' + avg50.toFixed(2) + ' vs $' + avg55.toFixed(2);
                     document.getElementById('compAvgPnLWinner').textContent = avg50>avg55?'BOT_050':avg55>avg50?'BOT_055':'Tied';
+                }
+
+                // Display IB P&L
+                if (d.ib_account_pnl) {
+                    const ib = d.ib_account_pnl;
+                    if (ib.status === 'connected') {
+                        const rpnl = safe(ib.realized_pnl);
+                        const upnl = safe(ib.unrealized_pnl);
+                        const total = safe(ib.total_pnl);
+
+                        document.getElementById('ibRealizedPnL').innerHTML =
+                            '<span class="' + (rpnl >= 0 ? 'text-green-400' : 'text-red-400') + '">$' + rpnl.toFixed(2) + '</span>';
+                        document.getElementById('ibUnrealizedPnL').innerHTML =
+                            '<span class="' + (upnl >= 0 ? 'text-green-400' : 'text-red-400') + '">$' + upnl.toFixed(2) + '</span>';
+                        document.getElementById('ibTotalPnL').innerHTML =
+                            '<span class="' + (total >= 0 ? 'text-green-400' : 'text-red-400') + '">$' + total.toFixed(2) + '</span>';
+                        document.getElementById('ibStatus').textContent = '✓ Connected to IB Gateway';
+                    } else {
+                        document.getElementById('ibStatus').innerHTML =
+                            '<span class="text-red-400">✗ IB Gateway disconnected</span>';
+                    }
                 }
             } catch (e) {
                 document.getElementById('lastUpdate').innerHTML =
