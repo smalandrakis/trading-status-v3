@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T00:30:00.916160",
+  "generated_at": "2026-05-05T00:40:00.996647",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -7,21 +7,21 @@
   "ib_account_pnl": {
     "status": "connected",
     "realized_pnl": -648.5,
-    "unrealized_pnl": 196.02999999999997,
-    "total_pnl": -452.47,
+    "unrealized_pnl": -44.400000000000034,
+    "total_pnl": -692.9000000000001,
     "raw_realized": -17570.56,
-    "raw_unrealized": -72.25,
+    "raw_unrealized": -312.68,
     "baseline_active": true
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-05T00:30:01.644495"
+    "last_health_check": "2026-05-05T00:40:01.727623"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-05 00:29:55,075 - INFO - [HEARTBEAT] Price: $80,268.74",
+      "last_update": "2026-05-05 00:39:55,233 - INFO - [HEARTBEAT] Price: $80,139.04",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -63,7 +63,7 @@
     {
       "name": "BTC Balanced Strategy (0.55 threshold)",
       "status": "running",
-      "last_update": "2026-05-05 00:29:55,116 - INFO - [HEARTBEAT] Price: $80,268.74",
+      "last_update": "2026-05-05 00:39:55,275 - INFO - [HEARTBEAT] Price: $80,139.04",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -78,9 +78,9 @@
         "strategy": "Balanced Quality - optimize quality \u00d7 volume"
       },
       "current_signal": {
-        "signal": "SHORT",
-        "confidence": 57.2,
-        "time": "2026-05-05 00:28:44,835"
+        "signal": "NEUTRAL",
+        "confidence": 52.0,
+        "time": "2026-05-05 00:38:48,766"
       },
       "open_position": null,
       "performance": {
@@ -97,7 +97,7 @@
     {
       "name": "MBT Futures Bot (0.90 threshold) - BOT090",
       "status": "running",
-      "last_update": "2026-05-05 00:30:01",
+      "last_update": "2026-05-05 00:40:02",
       "config": {
         "symbol": "MBT",
         "threshold": 0.9,
