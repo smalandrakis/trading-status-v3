@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T19:10:01.646796",
+  "generated_at": "2026-05-06T19:20:01.026019",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-06T19:10:06.777887"
+    "last_health_check": "2026-05-06T19:20:06.189243"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-06 19:09:53,660 - INFO - [HEARTBEAT] Price: $81,667.17",
+      "last_update": "2026-05-06 19:19:53,750 - INFO - [HEARTBEAT] Price: $81,496.00",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -35,11 +35,19 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "LONG",
-        "confidence": 56.7,
-        "time": "2026-05-06 19:07:14,532"
+        "signal": "UNKNOWN",
+        "confidence": 0,
+        "time": null
       },
-      "open_position": null,
+      "open_position": {
+        "direction": "SHORT",
+        "size": 1,
+        "entry_price": 81624.277445,
+        "tp_price": 81216.156057775,
+        "sl_price": 81746.7138611675,
+        "entry_time": "2026-05-06 19:15:54",
+        "adopted": false
+      },
       "performance": {
         "total_trades": 17,
         "wins": 5,
@@ -125,7 +133,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-06 19:10:06,168 - INFO - Price: $81632.32",
+      "last_update": "2026-05-06 19:19:56,538 - INFO - Price: $81496.00",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -146,35 +154,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 281,
-        "wins": 58,
-        "losses": 223,
-        "win_rate": 20.6,
-        "total_pnl": 147.8,
-        "avg_pnl": 0.53
+        "total_trades": 284,
+        "wins": 60,
+        "losses": 224,
+        "win_rate": 21.1,
+        "total_pnl": 170.57,
+        "avg_pnl": 0.6
       },
       "recent_trades": [
-        {
-          "time": "2026-05-06T18:39:42.122898",
-          "direction": "LONG",
-          "pnl": 12.51,
-          "pnl_pct": 0.15,
-          "hold_minutes": 7.0
-        },
-        {
-          "time": "2026-05-06T18:51:22.121517",
-          "direction": "LONG",
-          "pnl": 12.72,
-          "pnl_pct": 0.16,
-          "hold_minutes": 12.0
-        },
-        {
-          "time": "2026-05-06T18:51:26.987735",
-          "direction": "LONG",
-          "pnl": -2.25,
-          "pnl_pct": -0.03,
-          "hold_minutes": 0.0
-        },
         {
           "time": "2026-05-06T18:51:41.096583",
           "direction": "LONG",
@@ -223,6 +210,27 @@
           "pnl": 12.43,
           "pnl_pct": 0.15,
           "hold_minutes": 4.0
+        },
+        {
+          "time": "2026-05-06T19:13:12.596639",
+          "direction": "LONG",
+          "pnl": 12.37,
+          "pnl_pct": 0.15,
+          "hold_minutes": 11.0
+        },
+        {
+          "time": "2026-05-06T19:13:23.796991",
+          "direction": "LONG",
+          "pnl": -2.16,
+          "pnl_pct": -0.03,
+          "hold_minutes": 0.0
+        },
+        {
+          "time": "2026-05-06T19:16:39.836731",
+          "direction": "SHORT",
+          "pnl": 12.57,
+          "pnl_pct": 0.15,
+          "hold_minutes": 1.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -230,7 +238,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-06 19:10:06",
+      "last_update": "2026-05-06 19:20:06",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -253,42 +261,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 63,
-        "wins": 9,
-        "losses": 54,
-        "win_rate": 14.3,
-        "total_pnl": -8.32,
-        "avg_pnl": -0.13
+        "total_trades": 67,
+        "wins": 10,
+        "losses": 57,
+        "win_rate": 14.9,
+        "total_pnl": -2.7,
+        "avg_pnl": -0.04
       },
       "recent_trades": [
-        {
-          "time": "2026-05-06T17:03:34.084628",
-          "direction": "LONG",
-          "pnl": -2.17,
-          "pnl_pct": -0.03,
-          "hold_minutes": 1.0
-        },
-        {
-          "time": "2026-05-06T17:21:39.776117",
-          "direction": "LONG",
-          "pnl": 12.29,
-          "pnl_pct": 0.15,
-          "hold_minutes": 4.0
-        },
-        {
-          "time": "2026-05-06T17:23:36.583915",
-          "direction": "SHORT",
-          "pnl": -2.07,
-          "pnl_pct": -0.03,
-          "hold_minutes": 0.0
-        },
-        {
-          "time": "2026-05-06T17:45:47.661352",
-          "direction": "SHORT",
-          "pnl": -2.65,
-          "pnl_pct": -0.03,
-          "hold_minutes": 0.0
-        },
         {
           "time": "2026-05-06T17:46:51.153686",
           "direction": "LONG",
@@ -330,6 +310,34 @@
           "pnl": -2.07,
           "pnl_pct": -0.03,
           "hold_minutes": 8.0
+        },
+        {
+          "time": "2026-05-06T19:11:41.478598",
+          "direction": "LONG",
+          "pnl": -2.2,
+          "pnl_pct": -0.03,
+          "hold_minutes": 1.0
+        },
+        {
+          "time": "2026-05-06T19:12:17.814680",
+          "direction": "SHORT",
+          "pnl": -2.24,
+          "pnl_pct": -0.03,
+          "hold_minutes": 0.0
+        },
+        {
+          "time": "2026-05-06T19:16:52.948655",
+          "direction": "SHORT",
+          "pnl": 12.46,
+          "pnl_pct": 0.15,
+          "hold_minutes": 1.0
+        },
+        {
+          "time": "2026-05-06T19:18:05.572626",
+          "direction": "LONG",
+          "pnl": -2.41,
+          "pnl_pct": -0.03,
+          "hold_minutes": 0.0
         }
       ],
       "health_status": "UNKNOWN"
