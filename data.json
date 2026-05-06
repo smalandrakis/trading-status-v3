@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T08:50:01.866119",
+  "generated_at": "2026-05-06T09:00:01.724580",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -7,21 +7,21 @@
   "ib_account_pnl": {
     "status": "connected",
     "realized_pnl": 13369.539999999999,
-    "unrealized_pnl": -6.960000000000001,
-    "total_pnl": 13362.58,
+    "unrealized_pnl": -3.66,
+    "total_pnl": 13365.88,
     "raw_realized": -34.7,
-    "raw_unrealized": -23.09,
+    "raw_unrealized": -19.79,
     "baseline_active": true
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-06T08:50:02.606000"
+    "last_health_check": "2026-05-06T09:00:02.466808"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-06 08:49:57,273 - INFO - [HEARTBEAT] Price: $81,515.51",
+      "last_update": "2026-05-06 08:59:57,442 - INFO - [HEARTBEAT] Price: $81,476.70",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -37,8 +37,8 @@
       },
       "current_signal": {
         "signal": "LONG",
-        "confidence": 61.3,
-        "time": "2026-05-06 08:49:03,069"
+        "confidence": 67.7,
+        "time": "2026-05-06 08:59:06,209"
       },
       "open_position": null,
       "performance": {
@@ -98,7 +98,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-06 08:49:59,919 - INFO - Price: $81515.50",
+      "last_update": "2026-05-06 09:00:01,987 - INFO - Price: $81484.69",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -203,7 +203,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-06 08:49:55,723 - INFO - Price: $81515.51",
+      "last_update": "2026-05-06 09:00:01,065 - INFO - Price: $81483.69",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
