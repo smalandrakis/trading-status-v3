@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-06T08:30:01.408692",
+  "generated_at": "2026-05-06T08:40:01.158284",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "ib_account_pnl": {
     "status": "connected",
-    "realized_pnl": 13379.58,
-    "unrealized_pnl": -25.029999999999998,
-    "total_pnl": 13354.55,
-    "raw_realized": -24.66,
-    "raw_unrealized": -41.16,
+    "realized_pnl": 13369.539999999999,
+    "unrealized_pnl": -11.77,
+    "total_pnl": 13357.769999999999,
+    "raw_realized": -34.7,
+    "raw_unrealized": -27.9,
     "baseline_active": true
   },
   "system_health": {
-    "reconciliation": "OK",
-    "last_health_check": "2026-05-06T08:30:02.567568"
+    "reconciliation": "MISMATCH",
+    "last_health_check": "2026-05-06T08:40:01.813640"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-06 08:30:02",
+      "last_update": "2026-05-06 08:39:57,121 - INFO - [HEARTBEAT] Price: $81,421.90",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -36,26 +36,18 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "UNKNOWN",
-        "confidence": 0,
-        "time": null
+        "signal": "LONG",
+        "confidence": 50.8,
+        "time": "2026-05-06 08:39:00,054"
       },
-      "open_position": {
-        "direction": "SHORT",
-        "size": 3,
-        "entry_price": 81628.01557500001,
-        "tp_price": 81219.87549712502,
-        "sl_price": 81750.45759836251,
-        "entry_time": "2026-05-05 22:40:02",
-        "adopted": false
-      },
+      "open_position": null,
       "performance": {
-        "total_trades": 5,
-        "wins": 0,
+        "total_trades": 6,
+        "wins": 1,
         "losses": 5,
-        "win_rate": 0.0,
-        "total_pnl": -192.41,
-        "avg_pnl": -38.48
+        "win_rate": 16.7,
+        "total_pnl": -115.68,
+        "avg_pnl": -19.28
       },
       "recent_trades": [
         {
@@ -92,6 +84,13 @@
           "pnl": -36.99,
           "pnl_pct": -0.15,
           "hold_minutes": 1.0
+        },
+        {
+          "time": "2026-05-06T08:30:04.833825",
+          "direction": "SHORT",
+          "pnl": 76.73,
+          "pnl_pct": 0.31,
+          "hold_minutes": 590.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -99,7 +98,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-06 08:29:15,917 - INFO - Price: $81375.43",
+      "last_update": "2026-05-06 08:40:01",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -120,21 +119,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 83,
+        "total_trades": 84,
         "wins": 14,
-        "losses": 69,
-        "win_rate": 16.9,
-        "total_pnl": -0.04,
-        "avg_pnl": -0.0
+        "losses": 70,
+        "win_rate": 16.7,
+        "total_pnl": -4.12,
+        "avg_pnl": -0.05
       },
       "recent_trades": [
-        {
-          "time": "2026-05-05T22:15:22.556084",
-          "direction": "SHORT",
-          "pnl": -2.35,
-          "pnl_pct": -0.03,
-          "hold_minutes": 0.0
-        },
         {
           "time": "2026-05-05T22:16:07.097606",
           "direction": "LONG",
@@ -197,6 +189,13 @@
           "pnl": -2.12,
           "pnl_pct": -0.03,
           "hold_minutes": 3.0
+        },
+        {
+          "time": "2026-05-06T08:34:04.963872",
+          "direction": "LONG",
+          "pnl": -4.08,
+          "pnl_pct": -0.05,
+          "hold_minutes": 1.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -204,7 +203,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-06 08:29:19,255 - INFO - Price: $81381.40",
+      "last_update": "2026-05-06 08:40:01",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
