@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T13:50:02.079876",
+  "generated_at": "2026-05-07T14:03:32.272549",
   "binance_connection": {
-    "status": "connected",
-    "message": "Binance API accessible"
+    "status": "disconnected",
+    "message": "HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1079f7f40>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"
   },
   "ib_account_pnl": {
     "status": "disconnected",
@@ -13,14 +13,14 @@
     "baseline_active": true
   },
   "system_health": {
-    "reconciliation": "OK",
-    "last_health_check": "2026-05-07T13:50:07.232242"
+    "reconciliation": "MISMATCH",
+    "last_health_check": "2026-05-07T14:03:40.823301"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-07 13:49:50,655 - INFO - [HEARTBEAT] Price: $80,886.21",
+      "last_update": "2026-05-07 14:03:40",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,7 +133,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-07 13:50:07",
+      "last_update": "2026-05-07 14:03:40",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -238,7 +238,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-07 13:50:00,086 - INFO - Price: $80991.97",
+      "last_update": "2026-05-07 14:03:38,909 - INFO - Price: $80866.64",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -261,28 +261,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 116,
+        "total_trades": 118,
         "wins": 15,
-        "losses": 101,
-        "win_rate": 12.9,
-        "total_pnl": -47.99,
-        "avg_pnl": -0.41
+        "losses": 103,
+        "win_rate": 12.7,
+        "total_pnl": -54.92,
+        "avg_pnl": -0.47
       },
       "recent_trades": [
-        {
-          "time": "2026-05-07T06:01:24.461516",
-          "direction": "SHORT",
-          "pnl": -2.07,
-          "pnl_pct": -0.03,
-          "hold_minutes": 1.0
-        },
-        {
-          "time": "2026-05-07T06:10:30.971284",
-          "direction": "SHORT",
-          "pnl": -2.05,
-          "pnl_pct": -0.03,
-          "hold_minutes": 5.0
-        },
         {
           "time": "2026-05-07T06:20:02.127838",
           "direction": "LONG",
@@ -338,6 +324,20 @@
           "pnl": -2.19,
           "pnl_pct": -0.03,
           "hold_minutes": 2.0
+        },
+        {
+          "time": "2026-05-07T13:50:43.274185",
+          "direction": "LONG",
+          "pnl": -4.77,
+          "pnl_pct": -0.06,
+          "hold_minutes": 48.0
+        },
+        {
+          "time": "2026-05-07T13:51:35.523495",
+          "direction": "SHORT",
+          "pnl": -2.16,
+          "pnl_pct": -0.03,
+          "hold_minutes": 0.0
         }
       ],
       "health_status": "UNKNOWN"
