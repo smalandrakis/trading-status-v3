@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T16:40:01.516799",
+  "generated_at": "2026-05-08T16:50:00.939433",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-08T16:40:06.756435"
+    "last_health_check": "2026-05-08T16:50:06.106989"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-08 16:40:03,154 - INFO - [HEARTBEAT] Price: $80,258.46",
+      "last_update": "2026-05-08 16:50:03,325 - INFO - [HEARTBEAT] Price: $80,196.00",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -36,8 +36,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 63.8,
-        "time": "2026-05-08 16:35:15,706"
+        "confidence": 79.2,
+        "time": "2026-05-08 16:45:18,414"
       },
       "open_position": null,
       "performance": {
@@ -125,7 +125,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-08 16:40:06",
+      "last_update": "2026-05-08 16:50:06",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -146,28 +146,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 386,
+        "total_trades": 388,
         "wins": 81,
-        "losses": 305,
-        "win_rate": 21.0,
-        "total_pnl": 237.26,
-        "avg_pnl": 0.61
+        "losses": 307,
+        "win_rate": 20.9,
+        "total_pnl": 233.11,
+        "avg_pnl": 0.6
       },
       "recent_trades": [
-        {
-          "time": "2026-05-08T16:26:13.504271",
-          "direction": "LONG",
-          "pnl": -2.31,
-          "pnl_pct": -0.03,
-          "hold_minutes": 0.0
-        },
-        {
-          "time": "2026-05-08T16:29:58.402514",
-          "direction": "SHORT",
-          "pnl": 12.51,
-          "pnl_pct": 0.16,
-          "hold_minutes": 4.0
-        },
         {
           "time": "2026-05-08T16:31:12.378671",
           "direction": "SHORT",
@@ -223,6 +209,20 @@
           "pnl": -2.19,
           "pnl_pct": -0.03,
           "hold_minutes": 1.0
+        },
+        {
+          "time": "2026-05-08T16:46:20.703177",
+          "direction": "SHORT",
+          "pnl": -2.01,
+          "pnl_pct": -0.03,
+          "hold_minutes": 1.0
+        },
+        {
+          "time": "2026-05-08T16:49:21.612055",
+          "direction": "LONG",
+          "pnl": -2.13,
+          "pnl_pct": -0.03,
+          "hold_minutes": 2.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -230,7 +230,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-08 16:40:00,920 - INFO - Price: $80254.54",
+      "last_update": "2026-05-08 16:50:05,713 - INFO - Price: $80195.43",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -253,21 +253,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 204,
+        "total_trades": 205,
         "wins": 39,
-        "losses": 165,
-        "win_rate": 19.1,
-        "total_pnl": 125.85,
-        "avg_pnl": 0.62
+        "losses": 166,
+        "win_rate": 19.0,
+        "total_pnl": 123.72,
+        "avg_pnl": 0.6
       },
       "recent_trades": [
-        {
-          "time": "2026-05-08T15:26:23.934836",
-          "direction": "LONG",
-          "pnl": -2.24,
-          "pnl_pct": -0.03,
-          "hold_minutes": 10.0
-        },
         {
           "time": "2026-05-08T15:33:00.707839",
           "direction": "SHORT",
@@ -330,6 +323,13 @@
           "pnl": -2.13,
           "pnl_pct": -0.03,
           "hold_minutes": 3.0
+        },
+        {
+          "time": "2026-05-08T16:49:20.701672",
+          "direction": "LONG",
+          "pnl": -2.13,
+          "pnl_pct": -0.03,
+          "hold_minutes": 2.0
         }
       ],
       "health_status": "UNKNOWN"
