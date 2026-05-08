@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T21:00:01.427219",
+  "generated_at": "2026-05-08T21:10:01.741989",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -13,14 +13,14 @@
     "baseline_active": true
   },
   "system_health": {
-    "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-08T21:00:06.556516"
+    "reconciliation": "OK",
+    "last_health_check": "2026-05-08T21:10:06.884848"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-08 20:59:37,420 - INFO - [HEARTBEAT] Price: $80,115.73",
+      "last_update": "2026-05-08 21:09:37,588 - INFO - [HEARTBEAT] Price: $80,082.56",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,7 +133,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-08 21:00:02,362 - INFO - Price: $80074.61",
+      "last_update": "2026-05-08 21:10:04,506 - INFO - Price: $80070.00",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -154,35 +154,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 430,
+        "total_trades": 433,
         "wins": 86,
-        "losses": 344,
-        "win_rate": 20.0,
-        "total_pnl": 173.48,
-        "avg_pnl": 0.4
+        "losses": 347,
+        "win_rate": 19.9,
+        "total_pnl": 166.69,
+        "avg_pnl": 0.38
       },
       "recent_trades": [
-        {
-          "time": "2026-05-08T19:31:46.974014",
-          "direction": "LONG",
-          "pnl": 12.13,
-          "pnl_pct": 0.15,
-          "hold_minutes": 1.0
-        },
-        {
-          "time": "2026-05-08T19:32:04.473665",
-          "direction": "LONG",
-          "pnl": -2.15,
-          "pnl_pct": -0.03,
-          "hold_minutes": 0.0
-        },
-        {
-          "time": "2026-05-08T19:32:14.802658",
-          "direction": "LONG",
-          "pnl": -2.02,
-          "pnl_pct": -0.03,
-          "hold_minutes": 0.0
-        },
         {
           "time": "2026-05-08T19:32:45.809826",
           "direction": "SHORT",
@@ -231,6 +210,27 @@
           "pnl": -2.09,
           "pnl_pct": -0.03,
           "hold_minutes": 0.0
+        },
+        {
+          "time": "2026-05-08T21:00:56.841212",
+          "direction": "SHORT",
+          "pnl": -2.15,
+          "pnl_pct": -0.03,
+          "hold_minutes": 0.0
+        },
+        {
+          "time": "2026-05-08T21:04:26.544661",
+          "direction": "SHORT",
+          "pnl": -2.18,
+          "pnl_pct": -0.03,
+          "hold_minutes": 3.0
+        },
+        {
+          "time": "2026-05-08T21:07:06.893805",
+          "direction": "SHORT",
+          "pnl": -2.46,
+          "pnl_pct": -0.03,
+          "hold_minutes": 2.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -238,7 +238,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-08 21:00:06",
+      "last_update": "2026-05-08 21:10:04,866 - INFO - Price: $80067.75",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
