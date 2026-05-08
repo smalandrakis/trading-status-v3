@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T05:30:02.184425",
+  "generated_at": "2026-05-08T05:40:01.242710",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-08T05:30:07.343149"
+    "last_health_check": "2026-05-08T05:40:06.392414"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-08 05:29:53,858 - INFO - [HEARTBEAT] Price: $79,579.48",
+      "last_update": "2026-05-08 05:39:54,007 - INFO - [HEARTBEAT] Price: $79,621.97",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -133,7 +133,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-08 05:30:01,397 - INFO - Price: $79579.48",
+      "last_update": "2026-05-08 05:40:01,282 - INFO - Price: $79621.98",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -238,7 +238,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-08 05:30:00,649 - INFO - Price: $79579.47",
+      "last_update": "2026-05-08 05:39:59,669 - INFO - Price: $79621.98",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
