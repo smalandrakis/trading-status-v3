@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T01:40:01.655064",
+  "generated_at": "2026-05-11T01:50:00.893597",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -13,14 +13,14 @@
     "baseline_active": true
   },
   "system_health": {
-    "reconciliation": "OK",
-    "last_health_check": "2026-05-11T01:40:06.795598"
+    "reconciliation": "MISMATCH",
+    "last_health_check": "2026-05-11T01:50:06.035802"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-11 01:39:44,217 - INFO - [HEARTBEAT] Price: $82,372.28",
+      "last_update": "2026-05-11 01:49:44,412 - INFO - [HEARTBEAT] Price: $82,320.77",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -36,8 +36,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 63.2,
-        "time": "2026-05-11 01:37:36,249"
+        "confidence": 63.8,
+        "time": "2026-05-11 01:47:39,626"
       },
       "open_position": null,
       "performance": {
@@ -125,7 +125,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-11 01:40:06,458 - INFO - Price: $82366.12",
+      "last_update": "2026-05-11 01:50:04,323 - INFO - Price: $82320.49",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -230,7 +230,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-11 01:40:05,954 - INFO - Price: $82377.27",
+      "last_update": "2026-05-11 01:50:06",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -253,28 +253,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 239,
+        "total_trades": 241,
         "wins": 44,
-        "losses": 195,
-        "win_rate": 18.4,
-        "total_pnl": 114.71,
-        "avg_pnl": 0.48
+        "losses": 197,
+        "win_rate": 18.3,
+        "total_pnl": 109.91,
+        "avg_pnl": 0.46
       },
       "recent_trades": [
-        {
-          "time": "2026-05-11T01:16:04.672976",
-          "direction": "LONG",
-          "pnl": -2.33,
-          "pnl_pct": -0.03,
-          "hold_minutes": 0.0
-        },
-        {
-          "time": "2026-05-11T01:18:12.981129",
-          "direction": "SHORT",
-          "pnl": -2.64,
-          "pnl_pct": -0.03,
-          "hold_minutes": 0.0
-        },
         {
           "time": "2026-05-11T01:21:16.327622",
           "direction": "SHORT",
@@ -329,6 +315,20 @@
           "direction": "LONG",
           "pnl": 12.87,
           "pnl_pct": 0.16,
+          "hold_minutes": 2.0
+        },
+        {
+          "time": "2026-05-11T01:45:34.678427",
+          "direction": "LONG",
+          "pnl": -2.36,
+          "pnl_pct": -0.03,
+          "hold_minutes": 3.0
+        },
+        {
+          "time": "2026-05-11T01:47:15.558633",
+          "direction": "SHORT",
+          "pnl": -2.44,
+          "pnl_pct": -0.03,
           "hold_minutes": 2.0
         }
       ],
