@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-05-11T22:00:01.364389",
+  "generated_at": "2026-05-11T22:10:01.422319",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "ib_account_pnl": {
-    "status": "disconnected",
-    "error": "[Errno 61] Connect call failed ('127.0.0.1', 4002)",
-    "realized_pnl": null,
-    "unrealized_pnl": null,
-    "total_pnl": null,
+    "status": "connected",
+    "realized_pnl": -1496.76,
+    "unrealized_pnl": 2.07,
+    "total_pnl": -1494.69,
+    "raw_realized": -1622.4,
+    "raw_unrealized": 0.0,
     "baseline_active": true
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-11T22:00:01.521476"
+    "last_health_check": "2026-05-11T22:10:02.184062"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-11 21:59:43,962 - INFO - [HEARTBEAT] Price: $81,954.65",
+      "last_update": "2026-05-11 22:10:02",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -36,8 +37,8 @@
       },
       "current_signal": {
         "signal": "LONG",
-        "confidence": 52.7,
-        "time": "2026-05-11 21:59:43,801"
+        "confidence": 53.5,
+        "time": "2026-05-11 22:09:47,748"
       },
       "open_position": null,
       "performance": {
@@ -125,7 +126,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-11 21:59:59,600 - INFO - Price: $81961.99",
+      "last_update": "2026-05-11 22:09:56,871 - INFO - Price: $82038.52",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -230,7 +231,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-11 21:59:52,587 - INFO - Price: $81954.65",
+      "last_update": "2026-05-11 22:09:53,611 - INFO - Price: $82038.53",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
