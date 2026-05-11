@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T04:10:00.966639",
+  "generated_at": "2026-05-11T04:20:01.309722",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -13,14 +13,14 @@
     "baseline_active": true
   },
   "system_health": {
-    "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-11T04:10:06.110550"
+    "reconciliation": "OK",
+    "last_health_check": "2026-05-11T04:20:06.441488"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-11 04:10:06",
+      "last_update": "2026-05-11 04:19:47,142 - INFO - [HEARTBEAT] Price: $81,288.67",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -35,11 +35,19 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "SHORT",
-        "confidence": 78.4,
-        "time": "2026-05-11 04:09:30,112"
+        "signal": "UNKNOWN",
+        "confidence": 0,
+        "time": null
       },
-      "open_position": null,
+      "open_position": {
+        "direction": "SHORT",
+        "size": 1,
+        "entry_price": 81393.76276,
+        "tp_price": 80986.79394619999,
+        "sl_price": 81515.85340414,
+        "entry_time": "2026-05-11 04:14:10",
+        "adopted": false
+      },
       "performance": {
         "total_trades": 57,
         "wins": 19,
@@ -125,7 +133,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-11 04:10:02,601 - INFO - Price: $81416.39",
+      "last_update": "2026-05-11 04:20:01,245 - INFO - Price: $81288.67",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -230,7 +238,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-11 04:10:04,604 - INFO - Price: $81417.24",
+      "last_update": "2026-05-11 04:20:06,141 - INFO - Price: $81280.01",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
