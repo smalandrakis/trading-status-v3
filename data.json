@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T09:00:00.863677",
+  "generated_at": "2026-05-12T09:10:01.561969",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -15,13 +15,13 @@
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-12T09:00:01.406237"
+    "last_health_check": "2026-05-12T09:10:02.238009"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-12 08:59:54,456 - INFO - [HEARTBEAT] Price: $81,022.43",
+      "last_update": "2026-05-12 09:09:59,900 - INFO - [HEARTBEAT] Price: $80,969.30",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -36,11 +36,19 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "SHORT",
-        "confidence": 55.0,
-        "time": "2026-05-12 08:55:10,567"
+        "signal": "UNKNOWN",
+        "confidence": 0,
+        "time": null
       },
-      "open_position": null,
+      "open_position": {
+        "direction": "SHORT",
+        "size": 1,
+        "entry_price": 80973.33308,
+        "tp_price": 80568.4664146,
+        "sl_price": 81094.79307962,
+        "entry_time": "2026-05-12 09:02:47",
+        "adopted": false
+      },
       "performance": {
         "total_trades": 78,
         "wins": 26,
@@ -126,7 +134,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-12 09:00:01",
+      "last_update": "2026-05-12 09:09:57,204 - INFO - Price: $80969.30",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -231,7 +239,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-12 09:00:00,648 - INFO - Price: $81022.43",
+      "last_update": "2026-05-12 09:09:56,350 - INFO - Price: $80969.30",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
