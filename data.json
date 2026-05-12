@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T15:50:02.167407",
+  "generated_at": "2026-05-12T16:00:01.273510",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-12T15:50:07.412743"
+    "last_health_check": "2026-05-12T16:00:06.431399"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-12 15:50:07",
+      "last_update": "2026-05-12 15:59:43,301 - INFO - [HEARTBEAT] Price: $80,453.90",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -40,30 +40,23 @@
         "time": null
       },
       "open_position": {
-        "direction": "LONG",
+        "direction": "SHORT",
         "size": 1,
-        "entry_price": 80664.37203,
-        "tp_price": 81067.69389015,
-        "sl_price": 80543.375471955,
-        "entry_time": "2026-05-12 13:31:05",
+        "entry_price": 80623.997835,
+        "tp_price": 80220.877845825,
+        "sl_price": 80744.93383175251,
+        "entry_time": "2026-05-12 15:57:59",
         "adopted": false
       },
       "performance": {
-        "total_trades": 81,
+        "total_trades": 82,
         "wins": 27,
-        "losses": 54,
-        "win_rate": 33.3,
-        "total_pnl": 241.83,
-        "avg_pnl": 2.99
+        "losses": 55,
+        "win_rate": 32.9,
+        "total_pnl": 229.39,
+        "avg_pnl": 2.8
       },
       "recent_trades": [
-        {
-          "time": "2026-05-11T16:53:03.932987",
-          "direction": "SHORT",
-          "pnl": -12.47,
-          "pnl_pct": -0.15,
-          "hold_minutes": 7.0
-        },
         {
           "time": "2026-05-11T17:28:20.683779",
           "direction": "LONG",
@@ -126,6 +119,13 @@
           "pnl": -12.57,
           "pnl_pct": -0.16,
           "hold_minutes": 8.0
+        },
+        {
+          "time": "2026-05-12T15:57:55.617024",
+          "direction": "LONG",
+          "pnl": -12.44,
+          "pnl_pct": -0.15,
+          "hold_minutes": 147.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -133,7 +133,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-12 15:50:07",
+      "last_update": "2026-05-12 16:00:06",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -154,28 +154,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 598,
+        "total_trades": 600,
         "wins": 122,
-        "losses": 476,
-        "win_rate": 20.4,
-        "total_pnl": 253.09,
-        "avg_pnl": 0.42
+        "losses": 478,
+        "win_rate": 20.3,
+        "total_pnl": 248.7,
+        "avg_pnl": 0.41
       },
       "recent_trades": [
-        {
-          "time": "2026-05-11T22:22:53.087388",
-          "direction": "SHORT",
-          "pnl": -2.42,
-          "pnl_pct": -0.03,
-          "hold_minutes": 1.0
-        },
-        {
-          "time": "2026-05-12T09:48:57.130628",
-          "direction": "SHORT",
-          "pnl": -2.16,
-          "pnl_pct": -0.03,
-          "hold_minutes": 0.0
-        },
         {
           "time": "2026-05-12T09:49:06.083988",
           "direction": "LONG",
@@ -231,6 +217,20 @@
           "pnl": -2.53,
           "pnl_pct": -0.03,
           "hold_minutes": 1.0
+        },
+        {
+          "time": "2026-05-12T15:55:56.511414",
+          "direction": "SHORT",
+          "pnl": -2.1,
+          "pnl_pct": -0.03,
+          "hold_minutes": 0.0
+        },
+        {
+          "time": "2026-05-12T15:58:44.700115",
+          "direction": "SHORT",
+          "pnl": -2.29,
+          "pnl_pct": -0.03,
+          "hold_minutes": 1.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -238,7 +238,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-12 15:50:07",
+      "last_update": "2026-05-12 16:00:06",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
