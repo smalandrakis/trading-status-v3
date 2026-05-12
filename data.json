@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T02:30:01.732052",
+  "generated_at": "2026-05-12T02:40:01.110600",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-12T02:30:06.877066"
+    "last_health_check": "2026-05-12T02:40:06.267315"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-12 02:30:06",
+      "last_update": "2026-05-12 02:39:48,438 - INFO - [HEARTBEAT] Price: $81,564.58",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -35,11 +35,19 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "SHORT",
-        "confidence": 53.8,
-        "time": "2026-05-12 02:27:11,810"
+        "signal": "UNKNOWN",
+        "confidence": 0,
+        "time": null
       },
-      "open_position": null,
+      "open_position": {
+        "direction": "LONG",
+        "size": 1,
+        "entry_price": 81622.02061499999,
+        "tp_price": 82030.13071807497,
+        "sl_price": 81499.5875840775,
+        "entry_time": "2026-05-12 02:32:11",
+        "adopted": false
+      },
       "performance": {
         "total_trades": 75,
         "wins": 24,
@@ -125,7 +133,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-12 02:30:06,598 - INFO - Price: $81566.12",
+      "last_update": "2026-05-12 02:40:02,664 - INFO - Price: $81564.58",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -230,7 +238,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-12 02:30:02,997 - INFO - Price: $81566.11",
+      "last_update": "2026-05-12 02:40:05,299 - INFO - Price: $81564.58",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
