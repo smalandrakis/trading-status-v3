@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T02:20:02.026392",
+  "generated_at": "2026-05-13T02:30:00.851205",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -13,14 +13,14 @@
     "baseline_active": true
   },
   "system_health": {
-    "reconciliation": "OK",
-    "last_health_check": "2026-05-13T02:20:07.192469"
+    "reconciliation": "MISMATCH",
+    "last_health_check": "2026-05-13T02:30:06.041278"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-13 02:19:52,693 - INFO - [HEARTBEAT] Price: $80,588.00",
+      "last_update": "2026-05-13 02:30:06",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -39,38 +39,16 @@
         "confidence": 0,
         "time": null
       },
-      "open_position": {
-        "direction": "SHORT",
-        "size": 1,
-        "entry_price": 80618.27070000001,
-        "tp_price": 80215.17934650001,
-        "sl_price": 80739.19810605001,
-        "entry_time": "2026-05-13 01:33:56",
-        "adopted": false
-      },
+      "open_position": null,
       "performance": {
-        "total_trades": 93,
+        "total_trades": 95,
         "wins": 29,
-        "losses": 64,
-        "win_rate": 31.2,
-        "total_pnl": 173.45,
-        "avg_pnl": 1.87
+        "losses": 66,
+        "win_rate": 30.5,
+        "total_pnl": 145.39,
+        "avg_pnl": 1.53
       },
       "recent_trades": [
-        {
-          "time": "2026-05-12T16:16:15.935495",
-          "direction": "SHORT",
-          "pnl": -25.05,
-          "pnl_pct": -0.31,
-          "hold_minutes": 0.0
-        },
-        {
-          "time": "2026-05-12T16:28:40.957007",
-          "direction": "LONG",
-          "pnl": -14.0,
-          "pnl_pct": -0.17,
-          "hold_minutes": 9.0
-        },
         {
           "time": "2026-05-12T16:39:16.930376",
           "direction": "SHORT",
@@ -126,6 +104,20 @@
           "pnl": -12.86,
           "pnl_pct": -0.16,
           "hold_minutes": 1.0
+        },
+        {
+          "time": "2026-05-13T02:25:34.717328",
+          "direction": "SHORT",
+          "pnl": -13.09,
+          "pnl_pct": -0.16,
+          "hold_minutes": 52.0
+        },
+        {
+          "time": "2026-05-13T02:25:37.442977",
+          "direction": "SHORT",
+          "pnl": -14.97,
+          "pnl_pct": -0.19,
+          "hold_minutes": 0.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -133,7 +125,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-13 02:20:07",
+      "last_update": "2026-05-13 02:30:05,794 - INFO - Price: $80654.45",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -154,21 +146,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 634,
+        "total_trades": 635,
         "wins": 133,
-        "losses": 501,
-        "win_rate": 21.0,
-        "total_pnl": 317.35,
+        "losses": 502,
+        "win_rate": 20.9,
+        "total_pnl": 315.24,
         "avg_pnl": 0.5
       },
       "recent_trades": [
-        {
-          "time": "2026-05-12T18:56:11.466994",
-          "direction": "LONG",
-          "pnl": 12.38,
-          "pnl_pct": 0.16,
-          "hold_minutes": 3.0
-        },
         {
           "time": "2026-05-12T18:58:50.258356",
           "direction": "LONG",
@@ -231,6 +216,13 @@
           "pnl": 12.15,
           "pnl_pct": 0.15,
           "hold_minutes": 11.0
+        },
+        {
+          "time": "2026-05-13T02:28:38.389393",
+          "direction": "LONG",
+          "pnl": -2.11,
+          "pnl_pct": -0.03,
+          "hold_minutes": 4.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -238,7 +230,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-13 02:20:01,403 - INFO - Price: $80607.99",
+      "last_update": "2026-05-13 02:29:59,015 - INFO - Price: $80654.45",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
