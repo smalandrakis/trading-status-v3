@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T15:00:01.866389",
+  "generated_at": "2026-05-13T15:10:01.883332",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-13T15:00:07.249611"
+    "last_health_check": "2026-05-13T15:10:07.180373"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-13 15:00:03,931 - INFO - [HEARTBEAT] Price: $80,200.01",
+      "last_update": "2026-05-13 15:10:03,944 - INFO - [HEARTBEAT] Price: $80,316.47",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -35,35 +35,20 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "UNKNOWN",
-        "confidence": 0,
-        "time": null
+        "signal": "SHORT",
+        "confidence": 70.1,
+        "time": "2026-05-13 15:08:14,164"
       },
-      "open_position": {
-        "direction": "SHORT",
-        "size": 1,
-        "entry_price": 80192.393745,
-        "tp_price": 79791.431776275,
-        "sl_price": 80312.6823356175,
-        "entry_time": "2026-05-13 14:54:02",
-        "adopted": false
-      },
+      "open_position": null,
       "performance": {
-        "total_trades": 105,
+        "total_trades": 106,
         "wins": 33,
-        "losses": 72,
-        "win_rate": 31.4,
-        "total_pnl": 188.54,
-        "avg_pnl": 1.8
+        "losses": 73,
+        "win_rate": 31.1,
+        "total_pnl": 176.39,
+        "avg_pnl": 1.66
       },
       "recent_trades": [
-        {
-          "time": "2026-05-13T03:30:29.181774",
-          "direction": "LONG",
-          "pnl": 40.36,
-          "pnl_pct": 0.5,
-          "hold_minutes": 53.0
-        },
         {
           "time": "2026-05-13T08:15:25.920002",
           "direction": "LONG",
@@ -126,6 +111,13 @@
           "pnl": -13.38,
           "pnl_pct": -0.17,
           "hold_minutes": 7.0
+        },
+        {
+          "time": "2026-05-13T15:08:11.450856",
+          "direction": "SHORT",
+          "pnl": -12.15,
+          "pnl_pct": -0.15,
+          "hold_minutes": 14.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -133,7 +125,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-13 15:00:05,342 - INFO - Price: $80213.33",
+      "last_update": "2026-05-13 15:10:01,308 - INFO - Price: $80316.47",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -154,21 +146,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 664,
+        "total_trades": 665,
         "wins": 141,
-        "losses": 523,
+        "losses": 524,
         "win_rate": 21.2,
-        "total_pnl": 364.32,
-        "avg_pnl": 0.55
+        "total_pnl": 362.18,
+        "avg_pnl": 0.54
       },
       "recent_trades": [
-        {
-          "time": "2026-05-13T14:34:05.133272",
-          "direction": "SHORT",
-          "pnl": -2.32,
-          "pnl_pct": -0.03,
-          "hold_minutes": 0.0
-        },
         {
           "time": "2026-05-13T14:34:38.614064",
           "direction": "SHORT",
@@ -231,6 +216,13 @@
           "pnl": -2.12,
           "pnl_pct": -0.03,
           "hold_minutes": 0.0
+        },
+        {
+          "time": "2026-05-13T15:01:06.824183",
+          "direction": "SHORT",
+          "pnl": -2.14,
+          "pnl_pct": -0.03,
+          "hold_minutes": 8.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -238,7 +230,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-05-13 15:00:07",
+      "last_update": "2026-05-13 15:10:07",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -347,7 +339,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-13 15:00:01,666 - INFO - Price: $80202.97",
+      "last_update": "2026-05-13 15:09:57,634 - INFO - Price: $80316.47",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
