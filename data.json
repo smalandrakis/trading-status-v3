@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-14T22:30:01.932980",
+  "generated_at": "2026-05-14T22:40:01.074482",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "ib_account_pnl": {
     "status": "connected",
-    "realized_pnl": -422.53,
-    "unrealized_pnl": 50.88,
-    "total_pnl": -371.65,
-    "raw_realized": -548.17,
-    "raw_unrealized": 48.81,
+    "realized_pnl": -418.57000000000005,
+    "unrealized_pnl": 42.96,
+    "total_pnl": -375.61000000000007,
+    "raw_realized": -544.21,
+    "raw_unrealized": 40.89,
     "baseline_active": true
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-14T22:30:02.592997"
+    "last_health_check": "2026-05-14T22:40:01.737329"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-14 22:30:00,354 - INFO - [HEARTBEAT] Price: $81,276.26",
+      "last_update": "2026-05-14 22:40:00,529 - INFO - [HEARTBEAT] Price: $81,168.66",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -134,7 +134,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-14 22:30:02",
+      "last_update": "2026-05-14 22:40:01",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -156,21 +156,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 826,
-        "wins": 173,
+        "total_trades": 827,
+        "wins": 174,
         "losses": 653,
-        "win_rate": 20.9,
-        "total_pnl": 394.49,
-        "avg_pnl": 0.48
+        "win_rate": 21.0,
+        "total_pnl": 406.74,
+        "avg_pnl": 0.49
       },
       "recent_trades": [
-        {
-          "time": "2026-05-14T20:42:40.504110",
-          "direction": "SHORT",
-          "pnl": -2.11,
-          "pnl_pct": -0.03,
-          "hold_minutes": 2.0
-        },
         {
           "time": "2026-05-14T20:45:55.155186",
           "direction": "LONG",
@@ -233,6 +226,13 @@
           "pnl": -2.05,
           "pnl_pct": -0.03,
           "hold_minutes": 0.0
+        },
+        {
+          "time": "2026-05-14T22:36:40.731612",
+          "direction": "SHORT",
+          "pnl": 12.25,
+          "pnl_pct": 0.15,
+          "hold_minutes": 19.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -240,7 +240,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-05-14 22:30:01,326 - INFO - Price: $81277.47",
+      "last_update": "2026-05-14 22:40:01",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -318,7 +318,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-05-14 22:29:55,356 - INFO - Price: $81276.26",
+      "last_update": "2026-05-14 22:39:59,060 - INFO - Price: $81168.67",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -427,7 +427,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-05-14 22:29:56,266 - INFO - Price: $81276.25",
+      "last_update": "2026-05-14 22:40:00,002 - INFO - Price: $81168.66",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -537,7 +537,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-14 22:29:56,679 - INFO - Price: $81276.25",
+      "last_update": "2026-05-14 22:40:02",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -644,7 +644,7 @@
     {
       "name": "MES Momentum Bot - BOT_MES (S&P 500)",
       "status": "running",
-      "last_update": "2026-05-14 22:30:00,118 - INFO - Price: $81276.26",
+      "last_update": "2026-05-14 22:40:02",
       "config": {
         "symbol": "MES",
         "entry_move_pct": 0.05,
