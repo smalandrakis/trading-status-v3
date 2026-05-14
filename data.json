@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T02:50:01.747846",
+  "generated_at": "2026-05-14T03:00:01.673096",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -15,13 +15,13 @@
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-14T02:50:02.433620"
+    "last_health_check": "2026-05-14T03:00:02.389393"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-14 02:49:41,128 - INFO - [HEARTBEAT] Price: $79,624.26",
+      "last_update": "2026-05-14 02:59:41,286 - INFO - [HEARTBEAT] Price: $79,602.63",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -134,7 +134,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-14 02:49:58,929 - INFO - Price: $79616.45",
+      "last_update": "2026-05-14 02:59:57,434 - INFO - Price: $79588.59",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -239,7 +239,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-05-14 02:50:02,603 - INFO - Price: $79616.45",
+      "last_update": "2026-05-14 03:00:00,707 - INFO - Price: $79578.00",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -348,7 +348,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-05-14 02:50:02,604 - INFO - Price: $79616.45",
+      "last_update": "2026-05-14 03:00:00,721 - INFO - Price: $79578.00",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -387,7 +387,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-14 02:50:02",
+      "last_update": "2026-05-14 03:00:01,578 - INFO - Price: $79575.99",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
