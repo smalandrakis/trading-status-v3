@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-14T05:30:01.536957",
+  "generated_at": "2026-05-14T05:40:01.435011",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
   },
   "ib_account_pnl": {
     "status": "connected",
-    "realized_pnl": -215.11,
-    "unrealized_pnl": 31.75,
-    "total_pnl": -183.36,
-    "raw_realized": -340.75,
-    "raw_unrealized": 29.68,
+    "realized_pnl": -201.98000000000002,
+    "unrealized_pnl": -1.0300000000000002,
+    "total_pnl": -203.01000000000002,
+    "raw_realized": -327.62,
+    "raw_unrealized": -3.1,
     "baseline_active": true
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-14T05:30:02.165791"
+    "last_health_check": "2026-05-14T05:40:02.047345"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-14 05:29:43,586 - INFO - [HEARTBEAT] Price: $79,316.01",
+      "last_update": "2026-05-14 05:39:43,740 - INFO - [HEARTBEAT] Price: $79,180.51",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -134,7 +134,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-14 05:30:02",
+      "last_update": "2026-05-14 05:39:58,906 - INFO - Price: $79199.10",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -155,21 +155,14 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 716,
-        "wins": 150,
+        "total_trades": 717,
+        "wins": 151,
         "losses": 566,
-        "win_rate": 20.9,
-        "total_pnl": 376.24,
-        "avg_pnl": 0.53
+        "win_rate": 21.1,
+        "total_pnl": 388.24,
+        "avg_pnl": 0.54
       },
       "recent_trades": [
-        {
-          "time": "2026-05-14T04:02:25.311159",
-          "direction": "LONG",
-          "pnl": -2.28,
-          "pnl_pct": -0.03,
-          "hold_minutes": 1.0
-        },
         {
           "time": "2026-05-14T04:48:31.455271",
           "direction": "SHORT",
@@ -232,6 +225,13 @@
           "pnl": -2.09,
           "pnl_pct": -0.03,
           "hold_minutes": 1.0
+        },
+        {
+          "time": "2026-05-14T05:39:10.350542",
+          "direction": "SHORT",
+          "pnl": 12.0,
+          "pnl_pct": 0.15,
+          "hold_minutes": 2.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -239,7 +239,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-05-14 05:30:02",
+      "last_update": "2026-05-14 05:40:02",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -348,7 +348,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-05-14 05:30:02",
+      "last_update": "2026-05-14 05:40:00,833 - INFO - Price: $79194.35",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -374,12 +374,12 @@
       },
       "open_position": null,
       "performance": {
-        "total_trades": 4,
-        "wins": 2,
+        "total_trades": 5,
+        "wins": 3,
         "losses": 2,
-        "win_rate": 50.0,
-        "total_pnl": 0.94,
-        "avg_pnl": 0.23
+        "win_rate": 60.0,
+        "total_pnl": 8.87,
+        "avg_pnl": 1.77
       },
       "recent_trades": [
         {
@@ -409,6 +409,13 @@
           "pnl": -5.49,
           "pnl_pct": -0.07,
           "hold_minutes": 1.0
+        },
+        {
+          "time": "2026-05-14T05:39:13.430464",
+          "direction": "SHORT",
+          "pnl": 7.93,
+          "pnl_pct": 0.1,
+          "hold_minutes": 1.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -416,7 +423,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-14 05:30:02",
+      "last_update": "2026-05-14 05:40:01,958 - INFO - Price: $79191.98",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
