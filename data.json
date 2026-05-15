@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T22:50:00.988370",
+  "generated_at": "2026-05-15T23:00:00.918486",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -15,13 +15,13 @@
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-05-15T22:50:01.616181"
+    "last_health_check": "2026-05-15T23:00:01.581952"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-15 22:50:01,500 - INFO -   SHORT",
+      "last_update": "2026-05-15 23:00:01",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -36,35 +36,20 @@
         "strategy": "Volume King - maximize total P&L"
       },
       "current_signal": {
-        "signal": "UNKNOWN",
-        "confidence": 0,
-        "time": null
+        "signal": "LONG",
+        "confidence": 52.7,
+        "time": "2026-05-15 22:58:54,643"
       },
-      "open_position": {
-        "direction": "SHORT",
-        "size": 1,
-        "entry_price": 79003.95826,
-        "tp_price": 78608.9384687,
-        "sl_price": 79122.46419739,
-        "entry_time": "2026-05-15 22:49:09",
-        "adopted": false
-      },
+      "open_position": null,
       "performance": {
-        "total_trades": 150,
+        "total_trades": 151,
         "wins": 49,
-        "losses": 101,
-        "win_rate": 32.7,
-        "total_pnl": 448.93,
-        "avg_pnl": 2.99
+        "losses": 102,
+        "win_rate": 32.5,
+        "total_pnl": 436.73,
+        "avg_pnl": 2.89
       },
       "recent_trades": [
-        {
-          "time": "2026-05-15T14:09:58.258088",
-          "direction": "SHORT",
-          "pnl": -12.77,
-          "pnl_pct": -0.16,
-          "hold_minutes": 4.0
-        },
         {
           "time": "2026-05-15T15:03:37.840104",
           "direction": "SHORT",
@@ -127,6 +112,13 @@
           "pnl": -11.96,
           "pnl_pct": -0.15,
           "hold_minutes": 41.0
+        },
+        {
+          "time": "2026-05-15T22:58:51.764351",
+          "direction": "SHORT",
+          "pnl": -12.2,
+          "pnl_pct": -0.15,
+          "hold_minutes": 10.0
         }
       ],
       "health_status": "UNKNOWN"
@@ -134,7 +126,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-15 22:49:56,385 - INFO - Price: $79060.81",
+      "last_update": "2026-05-15 22:59:53,852 - INFO - Price: $79123.13",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -240,7 +232,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-05-15 22:49:55,330 - INFO - Price: $79060.82",
+      "last_update": "2026-05-15 22:59:56,186 - INFO - Price: $79123.12",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -318,7 +310,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-05-15 22:49:52,999 - INFO - Price: $79059.76",
+      "last_update": "2026-05-15 23:00:00,992 - INFO - Price: $79123.12",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -427,7 +419,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-05-15 22:49:56,088 - INFO - Price: $79060.81",
+      "last_update": "2026-05-15 22:59:53,852 - INFO - Price: $79123.13",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -537,7 +529,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-05-15 22:50:02",
+      "last_update": "2026-05-15 22:59:52,243 - INFO - Price: $79123.12",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -644,7 +636,7 @@
     {
       "name": "MES Momentum Bot - BOT_MES (S&P 500)",
       "status": "running",
-      "last_update": "2026-05-15 22:49:56,810 - INFO - Price: $79011.77",
+      "last_update": "2026-05-15 23:00:02",
       "config": {
         "symbol": "MES",
         "entry_move_pct": 0.05,
