@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T00:20:01.916556",
+  "generated_at": "2026-05-19T00:30:01.729644",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -7,21 +7,21 @@
   "ib_account_pnl": {
     "status": "connected",
     "realized_pnl": -254.04000000000002,
-    "unrealized_pnl": 72.63999999999999,
-    "total_pnl": -181.40000000000003,
+    "unrealized_pnl": 87.44999999999999,
+    "total_pnl": -166.59000000000003,
     "raw_realized": -379.68,
-    "raw_unrealized": 70.57,
+    "raw_unrealized": 85.38,
     "baseline_active": true
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-19T00:20:02.551830"
+    "last_health_check": "2026-05-19T00:30:02.489331"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-19 00:19:45,071 - INFO - [HEARTBEAT] Price: $77,200.04",
+      "last_update": "2026-05-19 00:29:45,284 - INFO - [HEARTBEAT] Price: $77,147.01",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -134,7 +134,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-19 00:20:02",
+      "last_update": "2026-05-19 00:30:02",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -240,7 +240,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-05-19 00:20:02",
+      "last_update": "2026-05-19 00:30:02",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -332,7 +332,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-05-19 00:20:02",
+      "last_update": "2026-05-19 00:30:02",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -441,7 +441,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-05-19 00:20:03",
+      "last_update": "2026-05-19 00:30:03",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
