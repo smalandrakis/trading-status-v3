@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T00:00:02.638151",
+  "generated_at": "2026-05-19T00:10:02.015221",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -7,21 +7,21 @@
   "ib_account_pnl": {
     "status": "connected",
     "realized_pnl": -254.04000000000002,
-    "unrealized_pnl": 7.66,
-    "total_pnl": -246.38000000000002,
+    "unrealized_pnl": 69.33,
+    "total_pnl": -184.71000000000004,
     "raw_realized": -379.68,
-    "raw_unrealized": 5.59,
+    "raw_unrealized": 67.26,
     "baseline_active": true
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-05-19T00:00:03.508120"
+    "last_health_check": "2026-05-19T00:10:02.574258"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-05-18 23:59:44,701 - INFO - [HEARTBEAT] Price: $77,116.97",
+      "last_update": "2026-05-19 00:09:44,877 - INFO - [HEARTBEAT] Price: $77,139.18",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -134,7 +134,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-05-19 00:00:03",
+      "last_update": "2026-05-19 00:10:02",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -240,7 +240,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-05-19 00:00:03",
+      "last_update": "2026-05-19 00:10:02",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -332,7 +332,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-05-19 00:00:03",
+      "last_update": "2026-05-19 00:10:02",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -441,7 +441,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-05-19 00:00:04",
+      "last_update": "2026-05-19 00:10:02",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
