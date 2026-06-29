@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T16:00:33.293967",
+  "generated_at": "2026-06-29T16:10:01.688272",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-06-29T16:00:33.523597"
+    "last_health_check": "2026-06-29T16:10:02.065845"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-06-29 16:00:33",
+      "last_update": "2026-06-29 16:10:02",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -125,7 +125,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-06-29 16:00:31,432 - INFO - Price: $59425.99",
+      "last_update": "2026-06-29 16:10:03",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -231,7 +231,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-06-29 16:00:30,819 - INFO - Price: $59418.25",
+      "last_update": "2026-06-29 16:10:03",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -337,7 +337,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-06-29 16:00:31,874 - INFO - Price: $59412.05",
+      "last_update": "2026-06-29 16:10:03",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -446,7 +446,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-06-29 16:00:35",
+      "last_update": "2026-06-29 16:10:04",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -556,7 +556,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-06-29 16:00:37",
+      "last_update": "2026-06-29 16:10:04,606 - INFO - Price: $59290.17",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
