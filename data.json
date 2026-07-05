@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T19:00:03.666317",
+  "generated_at": "2026-07-05T19:10:02.498633",
   "binance_connection": {
     "status": "error",
     "message": "HTTP 451"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-07-05T19:00:03.833401"
+    "last_health_check": "2026-07-05T19:10:02.707304"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-07-05 19:00:04",
+      "last_update": "2026-07-05 19:10:03",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -125,7 +125,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-07-05 19:00:04",
+      "last_update": "2026-07-05 19:10:03",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -231,7 +231,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-07-05 19:00:05",
+      "last_update": "2026-07-05 19:10:04",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -337,7 +337,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-07-05 19:00:05",
+      "last_update": "2026-07-05 19:10:04",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -446,7 +446,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-07-05 19:00:05",
+      "last_update": "2026-07-05 19:10:04",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -556,7 +556,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-07-05 19:00:07",
+      "last_update": "2026-07-05 19:10:06",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
