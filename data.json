@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T18:30:03.333893",
+  "generated_at": "2026-07-06T18:40:04.512216",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-07-06T18:30:03.886934"
+    "last_health_check": "2026-07-06T18:40:05.169184"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-07-06 18:30:04",
+      "last_update": "2026-07-06 18:40:05",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -125,7 +125,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-07-06 18:30:06",
+      "last_update": "2026-07-06 18:40:04,399 - INFO - Price: $62376.00",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -231,7 +231,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-07-06 18:30:07",
+      "last_update": "2026-07-06 18:40:05,326 - INFO - Price: $61896.00",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -337,7 +337,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-07-06 18:29:58,260 - INFO - Price: $62472.48",
+      "last_update": "2026-07-06 18:40:07",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -446,7 +446,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-07-06 18:30:03,821 - INFO - Price: $62461.70",
+      "last_update": "2026-07-06 18:40:07",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -556,7 +556,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-07-06 18:30:11",
+      "last_update": "2026-07-06 18:40:01,929 - INFO - Price: $62341.88",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
