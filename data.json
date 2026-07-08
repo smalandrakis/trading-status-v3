@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T22:20:01.742824",
+  "generated_at": "2026-07-08T22:30:04.130076",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-07-08T22:20:01.911286"
+    "last_health_check": "2026-07-08T22:30:04.302481"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-07-08 22:20:02",
+      "last_update": "2026-07-08 22:30:04",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -125,7 +125,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-07-08 22:20:02,335 - INFO - Price: $62177.99",
+      "last_update": "2026-07-08 22:30:05",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -231,7 +231,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-07-08 22:20:01,489 - INFO - Price: $62177.99",
+      "last_update": "2026-07-08 22:30:04,606 - INFO - Price: $62177.99",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -337,7 +337,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-07-08 22:20:00,432 - INFO - Price: $62082.34",
+      "last_update": "2026-07-08 22:30:05",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -446,7 +446,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-07-08 22:20:04",
+      "last_update": "2026-07-08 22:30:04,984 - INFO - Price: $62250.00",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -556,7 +556,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-07-08 22:20:05",
+      "last_update": "2026-07-08 22:30:07",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
