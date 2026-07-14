@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T09:50:01.276350",
+  "generated_at": "2026-07-14T10:01:50.618133",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-07-14T09:50:01.462895"
+    "last_health_check": "2026-07-14T10:01:50.809816"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-07-14 09:50:01",
+      "last_update": "2026-07-14 10:01:51",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -125,7 +125,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-07-14 09:50:02",
+      "last_update": "2026-07-14 10:01:51",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -231,7 +231,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-07-14 09:49:58,998 - INFO - Price: $62561.04",
+      "last_update": "2026-07-14 10:01:52",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -337,7 +337,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-07-14 09:49:59,843 - INFO - Price: $62561.03",
+      "last_update": "2026-07-14 10:01:52",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -446,7 +446,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-07-14 09:50:04",
+      "last_update": "2026-07-14 10:01:53",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -556,7 +556,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-07-14 09:50:04,298 - INFO - Price: $62662.00",
+      "last_update": "2026-07-14 10:01:44,734 - INFO - Price: $62560.93",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
