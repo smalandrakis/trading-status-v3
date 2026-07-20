@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T13:30:02.081399",
+  "generated_at": "2026-07-20T13:40:01.809666",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "MISMATCH",
-    "last_health_check": "2026-07-20T13:30:02.291119"
+    "last_health_check": "2026-07-20T13:40:02.050604"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-07-20 13:30:03",
+      "last_update": "2026-07-20 13:45:00",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -125,7 +125,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-07-20 13:30:00,589 - INFO - Price: $64352.80",
+      "last_update": "2026-07-20 13:45:00,584 - INFO - Price: $64872.00",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -231,7 +231,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-07-20 13:30:00,769 - INFO - Price: $64351.64",
+      "last_update": "2026-07-20 13:45:00,597 - INFO - Price: $64819.01",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -337,7 +337,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-07-20 13:30:05",
+      "last_update": "2026-07-20 13:45:03",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -446,7 +446,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-07-20 13:30:05",
+      "last_update": "2026-07-20 13:45:00,353 - INFO - Price: $64856.40",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -556,7 +556,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-07-20 13:30:03,926 - INFO - Price: $64205.37",
+      "last_update": "2026-07-20 13:45:06",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
