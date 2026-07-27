@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T00:30:01.313091",
+  "generated_at": "2026-07-28T00:40:01.123286",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "OK",
-    "last_health_check": "2026-07-28T00:30:01.457396"
+    "last_health_check": "2026-07-28T00:40:01.265446"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-07-28 00:29:56,686 - INFO - [HEARTBEAT] Price: $64,602.70",
+      "last_update": "2026-07-28 00:39:59,404 - INFO - [HEARTBEAT] Price: $64,534.00",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -36,8 +36,8 @@
       },
       "current_signal": {
         "signal": "SHORT",
-        "confidence": 60.7,
-        "time": "2026-07-28 00:26:29,045"
+        "confidence": 58.5,
+        "time": "2026-07-28 00:36:30,889"
       },
       "open_position": null,
       "performance": {
@@ -125,7 +125,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-07-28 00:30:02",
+      "last_update": "2026-07-28 00:40:02",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -231,7 +231,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-07-28 00:30:02",
+      "last_update": "2026-07-28 00:40:02",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -337,7 +337,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-07-28 00:30:03",
+      "last_update": "2026-07-28 00:40:03",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -446,7 +446,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-07-28 00:30:03",
+      "last_update": "2026-07-28 00:40:03",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
