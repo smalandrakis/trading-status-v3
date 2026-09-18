@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T11:10:01.475706",
+  "generated_at": "2026-09-18T11:20:00.929626",
   "binance_connection": {
     "status": "connected",
     "message": "Binance API accessible"
@@ -14,13 +14,13 @@
   },
   "system_health": {
     "reconciliation": "UNKNOWN",
-    "last_health_check": "2026-09-18T11:10:01.811521"
+    "last_health_check": "2026-09-18T11:20:01.113308"
   },
   "bots": [
     {
       "name": "BTC Volume Strategy (0.50 threshold)",
       "status": "running",
-      "last_update": "2026-09-18 11:10:01",
+      "last_update": "2026-09-18 11:20:01",
       "config": {
         "tp_pct": 0.5,
         "sl_pct": 0.15,
@@ -54,7 +54,7 @@
     {
       "name": "Pure Momentum Bot - BOT_MOMENTUM",
       "status": "running",
-      "last_update": "2026-09-18 11:10:01,032 - INFO - Price: $78431.90",
+      "last_update": "2026-09-18 11:19:58,182 - INFO - Price: $78333.43",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -89,7 +89,7 @@
     {
       "name": "Pure Momentum V2 Bot - BOT_MOMENTUM_V2 (OPTIMIZED)",
       "status": "running",
-      "last_update": "2026-09-18 11:10:01",
+      "last_update": "2026-09-18 11:19:58,501 - INFO - Price: $78334.52",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -124,7 +124,7 @@
     {
       "name": "Momentum Scalp Bot - BOT_MOMENTUM_SCALP",
       "status": "running",
-      "last_update": "2026-09-18 11:10:00,575 - INFO - Price: $78431.90",
+      "last_update": "2026-09-18 11:19:59,226 - INFO - Price: $78335.42",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -162,7 +162,7 @@
     {
       "name": "Momentum Scalp TRAILING Bot - BOT_MOMENTUM_SCALP_TRAILING (A/B TEST)",
       "status": "running",
-      "last_update": "2026-09-18 11:09:56,122 - INFO - Price: $78438.74",
+      "last_update": "2026-09-18 11:19:53,012 - INFO - Price: $78332.00",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
@@ -201,7 +201,7 @@
     {
       "name": "ML Momentum Bot - BOT_MOMENTUM_ML",
       "status": "running",
-      "last_update": "2026-09-18 11:10:01",
+      "last_update": "2026-09-18 11:19:56,451 - INFO - Price: $78332.01",
       "config": {
         "symbol": "MBT",
         "entry_move_pct": 0.05,
